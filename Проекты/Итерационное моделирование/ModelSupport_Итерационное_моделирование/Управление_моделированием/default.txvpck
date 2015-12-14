@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="rerveeib1vh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Управление_моделированием.Кнопка">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Управление_моделированием.TMainForm">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ФС_" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Команды_" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Загрузка_команд_и_входов" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Входы_" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Label1" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Label2" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Edit1" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Edit2" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Ф_С" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Label3" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Label4" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ListBox1" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ListBox3" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Создание_ПВП" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Выбор_ПВП" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Список_ПВП" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Пакетное_моделирование" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Сброс_ПВП" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Label5" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Компл_режим" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Автонном_режим" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Инициализация" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ListBox2" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Tтень" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТРНСО" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТРРУ" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТТРЕВОГ" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТВКСНА" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТОБРК" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТОПДО" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТОПРД" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТОБДО" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.TВГК1" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.TВГК2" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.TMainForm.TВГК3" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.TтеньTimer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТРНСОTimer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТРРУTimer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТТРЕВОГTimer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТВКСНАTimer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТОБРКTimer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТОПДОTimer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТОПРДTimer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ТОБДОTimer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.TВГК1Timer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.TВГК2Timer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.TВГК3Timer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Edit1Change(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Edit2Change(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Загрузка_команд_и_входовClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Ф_СClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ListBox1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ListBox2Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ListBox3Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Создание_ПВПClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Выбор_ПВПClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Пакетное_моделированиеClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Сброс_ПВПClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Компл_режимClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.Автонном_режимClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.TMainForm.ИнициализацияClick(System.TObject)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Управление_моделированием.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:Итерационное_моделирование:Управление_моделированием.@unitclass.MainForm" />
+      <reference referencedUin="delphi:e_field:src:Итерационное_моделирование:Управление_моделированием.@unitclass.MainForm" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.@unitclass.Запуск_таймера(Vcl.ExtCtrls.TTimer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.@unitclass.Перезапуск_таймера(Vcl.ExtCtrls.TTimer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Управление_моделированием.@unitclass.Останов_и_обнуление_таймера(Vcl.ExtCtrls.TTimer)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Управление_моделированием.Граф_управления">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

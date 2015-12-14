@@ -1,0 +1,39 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F5EDC076-DB8A-4C35-8EF5-6685D0130B13}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Gerakl_to_SFC_Converter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\Копия (2) проект\проект\Gerakl_to_SFC_Converter.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Gerakl_to_SFC_Converter">
+        <MSBuild Projects="..\..\Копия (2) проект\проект\Gerakl_to_SFC_Converter.dproj"/>
+    </Target>
+    <Target Name="Gerakl_to_SFC_Converter:Clean">
+        <MSBuild Projects="..\..\Копия (2) проект\проект\Gerakl_to_SFC_Converter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Gerakl_to_SFC_Converter:Make">
+        <MSBuild Projects="..\..\Копия (2) проект\проект\Gerakl_to_SFC_Converter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Gerakl_to_SFC_Converter;Gerakl_to_SFC_Converter"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Gerakl_to_SFC_Converter:Clean;Gerakl_to_SFC_Converter:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Gerakl_to_SFC_Converter:Make;Gerakl_to_SFC_Converter:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

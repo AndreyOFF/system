@@ -1,0 +1,610 @@
+<SpyListVars_13>
+  <xs:schema id="SpyListVars_13" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="SpyListVars_13" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ConfigurationInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ToolWindowPaneIndex" type="xs:int" minOccurs="0" />
+                <xs:element name="SpyListName" type="xs:string" minOccurs="0" />
+                <xs:element name="ConfigFileVersion" type="xs:int" minOccurs="0" />
+                <xs:element name="DefaultRefreshRateMonitoring" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFramePositionX" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFramePositionY" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFrameWidth" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFrameHeight" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Variable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" msdata:Caption="Имя" type="xs:string" minOccurs="0" />
+                <xs:element name="Alias" msdata:ReadOnly="true" msdata:Caption="Алиас" type="xs:string" minOccurs="0" />
+                <xs:element name="LogicalValue" msdata:Caption="Логическое значение" type="xs:string" minOccurs="0" />
+                <xs:element name="PhysicalValue" msdata:Caption="Физическое значение" type="xs:string" minOccurs="0" />
+                <xs:element name="Lock" msdata:Caption="Блокировка" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Comment" msdata:ReadOnly="true" msdata:Caption="Комментарий" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" msdata:Caption="Путь доступа" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ForeignCombo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="ComplexFieldsUniqueConstraint">
+        <xs:selector xpath=".//Variable" />
+        <xs:field xpath="FullName" />
+      </xs:unique>
+    </xs:element>
+    <xs:annotation>
+      <xs:appinfo>
+        <msdata:Relationship name="ComboBoxRelation" msdata:parent="Variable" msdata:child="ForeignCombo" msdata:parentkey="Name" msdata:childkey="Name" />
+      </xs:appinfo>
+    </xs:annotation>
+  </xs:schema>
+  <ConfigurationInfo>
+    <ToolWindowPaneIndex>13</ToolWindowPaneIndex>
+    <SpyListName>Команды управления X1KY</SpyListName>
+    <ConfigFileVersion>2</ConfigFileVersion>
+    <DefaultRefreshRateMonitoring>100</DefaultRefreshRateMonitoring>
+    <OfflineFramePositionX>-1</OfflineFramePositionX>
+    <OfflineFramePositionY>-1</OfflineFramePositionY>
+    <OfflineFrameWidth>938</OfflineFrameWidth>
+    <OfflineFrameHeight>135</OfflineFrameHeight>
+  </ConfigurationInfo>
+  <Variable>
+    <Name>X1KY27</Name>
+    <Alias>Х1КУ27</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY27</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY22</Name>
+    <Alias>Х1КУ22</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY22</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY21</Name>
+    <Alias>Х1КУ21</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY21</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY18</Name>
+    <Alias>Х1КУ18</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY18</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY1A</Name>
+    <Alias>Х1КУ1A</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1A</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY1B</Name>
+    <Alias>Х1КУ1B</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1B</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY1C</Name>
+    <Alias>Х1КУ1C</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1C</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY1D</Name>
+    <Alias>Х1КУ1D</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1D</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY1E</Name>
+    <Alias>Х1КУ1E</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1E</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY10</Name>
+    <Alias>Х1КУ10</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY10</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY12</Name>
+    <Alias>Х1КУ12</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY12</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY1F</Name>
+    <Alias>Х1КУ1F</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1F</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY23</Name>
+    <Alias>Х1КУ23</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY23</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY02</Name>
+    <Alias>Х1КУ02</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY02</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY01</Name>
+    <Alias>Х1КУ01</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY01</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY00</Name>
+    <Alias>Х1КУ00</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY00</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY04</Name>
+    <Alias>Х1КУ04</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY04</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY03</Name>
+    <Alias>Х1КУ03</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY03</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY05</Name>
+    <Alias>Х1КУ05</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY05</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY06</Name>
+    <Alias>Х1КУ06</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY06</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY0E</Name>
+    <Alias>Х1КУ0E</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0E</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY0F</Name>
+    <Alias>Х1КУ0F</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0F</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY26</Name>
+    <Alias>Х1КУ26</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY26</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY09</Name>
+    <Alias>Х1КУ09</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY09</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY07</Name>
+    <Alias>Х1КУ07</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY07</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY08</Name>
+    <Alias>Х1КУ08</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY08</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY0C</Name>
+    <Alias>Х1КУ0C</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0C</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY0D</Name>
+    <Alias>Х1КУ0D</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0D</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY11</Name>
+    <Alias>Х1КУ11</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY11</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY28</Name>
+    <Alias>Х1КУ28</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY28</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY0A</Name>
+    <Alias>Х1КУ0A</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0A</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY0B</Name>
+    <Alias>Х1КУ0B</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0B</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY20</Name>
+    <Alias>Х1КУ20</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY20</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY13</Name>
+    <Alias>Х1КУ13</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY13</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY16</Name>
+    <Alias>Х1КУ16</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY16</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY17</Name>
+    <Alias>Х1КУ17</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY17</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY19</Name>
+    <Alias>Х1КУ19</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY19</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY29</Name>
+    <Alias>Х1КУ29</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY29</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY14</Name>
+    <Alias>Х1КУ14</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY14</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY15</Name>
+    <Alias>Х1КУ15</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY15</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY24</Name>
+    <Alias>Х1КУ24</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY24</FullName>
+  </Variable>
+  <Variable>
+    <Name>X1KY25</Name>
+    <Alias>Х1КУ25</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY25</FullName>
+  </Variable>
+  <ForeignCombo>
+    <Name>X1KY27</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY27</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY22</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY22</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY21</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY21</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY18</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY18</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY1A</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1A</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY1B</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1B</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY1C</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1C</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY1D</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1D</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY1E</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1E</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY10</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY10</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY12</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY12</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY1F</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY1F</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY23</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY23</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY02</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY02</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY01</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY01</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY00</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY00</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY04</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY04</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY03</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY03</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY05</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY05</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY06</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY06</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY0E</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0E</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY0F</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0F</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY26</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY26</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY09</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY09</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY07</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY07</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY08</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY08</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY0C</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0C</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY0D</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0D</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY11</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY11</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY28</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY28</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY0A</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0A</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY0B</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY0B</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY20</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY20</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY13</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY13</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY16</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY16</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY17</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY17</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY19</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY19</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY29</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY29</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY14</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY14</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY15</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY15</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY24</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY24</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X1KY25</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X1KY25</FullName>
+  </ForeignCombo>
+</SpyListVars_13>

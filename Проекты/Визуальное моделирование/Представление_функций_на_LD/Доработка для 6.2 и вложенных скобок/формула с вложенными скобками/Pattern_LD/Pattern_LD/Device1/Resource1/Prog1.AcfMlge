@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root Version="5">
+  <LanguageContainerStyle DisplayGrid="true" FunctionBlockInstanceName="true" VariableDisplayMode="NameAndAlias" VariableAlpha="255" VariableTextColor="windowtext" VariableOnlineTextColor="Red" VariableBackgroundColor="SteelBlue" VariableGradientColor="LightSteelBlue" CellWidth="100" CellHeight="50" RungAllAligned="true" RungColor="SteelBlue" LabelColor="LightBlue" CommentColor="LightGreen" PowerRailColor="#FFCCCFE8" Index="0">
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdRungShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" RungColor="SteelBlue" CommentColor="LightGreen" LabelColor="LightBlue" Key="[0,1]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdRungShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" RungColor="SteelBlue" CommentColor="LightGreen" LabelColor="LightBlue" Key="[0,2]">
+      <Text>Q1 = ( Q2 + Q3 ) * ( ( Q7 + ^ ( Q7 + ^ Q8 ) * ( Q9 + Q10 ) ) * ( Q9 + Q10 ) + Q5 ) + ^ Q6</Text>
+      <RtfText>{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17 Q1 = ( Q2 + Q3 ) * ( ( Q7 + ^ ( Q7 + ^ Q8 ) * ( Q9 + Q10 ) ) * ( Q9 + Q10 ) + Q5 ) + ^ Q6\par
+}
+</RtfText>
+    </ShapeStyle>
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[1,2]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[1,3]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[1,6]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[2,2]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[2,3]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[2,4]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[2,5]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[3,3]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[3,4]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[4,2]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdContactShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[4,3]" />
+    <ShapeStyle Type="ISaGRAF.Workbench.Mlge.LanguageContainer.LD.Shape.WbLdCoilShape" Assembly="ISaGRAF.Workbench.Mlge.LanguageContainer.LD" DisplayMode="NameAndAlias" Key="[0,2],[5,2]" />
+  </LanguageContainerStyle>
+</Root>

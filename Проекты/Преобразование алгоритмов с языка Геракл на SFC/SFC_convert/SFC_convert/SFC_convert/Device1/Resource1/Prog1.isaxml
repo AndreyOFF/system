@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pou FileVersion="200.00.000" Name="Prog1" ElementGuid="3b0c3806-bdb3-411a-a7ea-485793327b2c" Comment="" SingleTextLine="" Language="SFC" CustomFbd="0" Localization="Prj" GroupName="(Определяемый пользователем)" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="true" Is1499="false">
+  <Program />
+  <LocalVars>
+    <Variable Name="FR009" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="SDPNK13" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="VIP1MS" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="NNVIPMS" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="ZNVIZXV" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="NNVIP" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" />
+  </LocalVars>
+  <PouBody><![CDATA[PROGRAM Prog1
+TRANSITION __GT0
+FROM 
+TO S1 :
+#info= ORDIV
+COORD= 56 49
+COORD= 40 59
+COORD= 88 59
+#end_info
+#info= ORCONV
+COORD= 56 107
+COORD= 40 97
+COORD= 88 97
+#end_info
+#info= ORDIV
+COORD= 56 121
+COORD= 40 131
+COORD= 88 131
+#end_info
+#info= ORCONV
+COORD= 56 179
+COORD= 40 169
+COORD= 88 169
+#end_info
+#info= LINK
+COORD= 56 23
+COORD= 56 25
+FROM= 2 S1
+TO= 3 T1
+#end_info
+#info= LINK
+COORD= 56 35
+COORD= 56 37
+FROM= 3 T1
+TO= 2 S2
+#end_info
+#info= LINK
+COORD= 56 47
+COORD= 56 49
+FROM= 2 S2
+TO= 7
+#end_info
+#info= LINK
+COORD= 40 59
+COORD= 40 61
+FROM= 7
+TO= 3 T2
+#end_info
+#info= LINK
+COORD= 40 71
+COORD= 40 73
+FROM= 3 T2
+TO= 2 S3
+#end_info
+#info= LINK
+COORD= 88 59
+COORD= 88 61
+FROM= 7
+TO= 3 T3
+#end_info
+#info= LINK
+COORD= 88 71
+COORD= 88 73
+FROM= 3 T3
+TO= 2 S4
+#end_info
+#info= LINK
+COORD= 40 83
+COORD= 40 85
+FROM= 2 S3
+TO= 3 T4
+#end_info
+#info= LINK
+COORD= 40 95
+COORD= 40 97
+FROM= 3 T4
+TO= 8
+#end_info
+#info= LINK
+COORD= 88 83
+COORD= 88 85
+FROM= 2 S4
+TO= 3 T5
+#end_info
+#info= LINK
+COORD= 88 95
+COORD= 88 97
+FROM= 3 T5
+TO= 8
+#end_info
+#info= LINK
+COORD= 56 107
+COORD= 56 109
+FROM= 8
+TO= 2 S5
+#end_info
+#info= LINK
+COORD= 56 119
+COORD= 56 121
+FROM= 2 S5
+TO= 7
+#end_info
+#info= LINK
+COORD= 40 131
+COORD= 40 133
+FROM= 7
+TO= 3 T6
+#end_info
+#info= LINK
+COORD= 40 143
+COORD= 40 145
+FROM= 3 T6
+TO= 2 S6
+#end_info
+#info= LINK
+COORD= 88 131
+COORD= 88 133
+FROM= 7
+TO= 3 T7
+#end_info
+#info= LINK
+COORD= 88 143
+COORD= 88 145
+FROM= 3 T7
+TO= 2 S7
+#end_info
+#info= LINK
+COORD= 40 155
+COORD= 40 157
+FROM= 2 S6
+TO= 3 T8
+#end_info
+#info= LINK
+COORD= 40 167
+COORD= 40 169
+FROM= 3 T8
+TO= 8
+#end_info
+#info= LINK
+COORD= 88 155
+COORD= 88 157
+FROM= 2 S7
+TO= 3 T9
+#end_info
+#info= LINK
+COORD= 88 167
+COORD= 88 169
+FROM= 3 T9
+TO= 8
+#end_info
+#info= LINK
+COORD= 56 179
+COORD= 56 181
+FROM= 8
+TO= 2 S8
+#end_info
+END_TRANSITION
+INITIAL_STEP S1 :
+Action1 (N);
+#info= COORD
+[ 48 , 12 ]
+#end_info
+END_STEP
+ACTION Action1 :
+#info= ST
+FR009 := true;
+
+#end_info
+END_ACTION
+TRANSITION T1
+FROM S1
+TO S2 :
+#info= ST
+
+#end_info
+#info= COORD
+[ 48 , 24 ]
+#end_info
+END_TRANSITION
+STEP S2 :
+Action2 (N);
+#info= COORD
+[ 48 , 36 ]
+#end_info
+END_STEP
+ACTION Action2 :
+#info= ST
+SDPNK13 := true;
+VIP1MS := false;
+(* Выдать в УУ *)
+NNVIPMS := true;
+(* Выдать в УУ   *)
+ZNVIZXV := true;
+
+#end_info
+END_ACTION
+TRANSITION T2
+FROM S2
+TO S3 :
+#info= ST
+DPNK13 and VIP1MS and NNVIPMS;
+
+#end_info
+#info= COORD
+[ 32 , 60 ]
+#end_info
+END_TRANSITION
+TRANSITION T3
+FROM S2
+TO S4 :
+#info= ST
+not(DPNK13 and VIP1MS and NNVIPMS);
+
+#end_info
+#info= COORD
+[ 80 , 60 ]
+#end_info
+END_TRANSITION
+STEP S3 :
+Action3 (N);
+#info= COORD
+[ 32 , 72 ]
+#end_info
+END_STEP
+ACTION Action3 :
+#info= ST
+NNVIP := true;
+
+#end_info
+END_ACTION
+TRANSITION T4
+FROM S3
+TO S5 :
+#info= ST
+
+#end_info
+#info= COORD
+[ 32 , 84 ]
+#end_info
+END_TRANSITION
+STEP S4 :
+Action4 (N);
+#info= COORD
+[ 80 , 72 ]
+#end_info
+END_STEP
+ACTION Action4 :
+#info= ST
+NNVIP := false ;
+(* Выдать в УУ *)
+
+#end_info
+END_ACTION
+TRANSITION T5
+FROM S4
+TO S5 :
+#info= ST
+
+#end_info
+#info= COORD
+[ 80 , 84 ]
+#end_info
+END_TRANSITION
+STEP S5 :
+Action5 (N);
+#info= COORD
+[ 48 , 108 ]
+#end_info
+END_STEP
+ACTION Action5 :
+#info= ST
+
+#end_info
+END_ACTION
+TRANSITION T6
+FROM S5
+TO S6 :
+#info= ST
+DPNK13 and VIP1MS and NNVIPMS;
+
+#end_info
+#info= COORD
+[ 32 , 132 ]
+#end_info
+END_TRANSITION
+TRANSITION T7
+FROM S5
+TO S7 :
+#info= ST
+not(DPNK13 and VIP1MS and NNVIPMS);
+
+#end_info
+#info= COORD
+[ 80 , 132 ]
+#end_info
+END_TRANSITION
+STEP S6 :
+Action6 (N);
+#info= COORD
+[ 32 , 144 ]
+#end_info
+END_STEP
+ACTION Action6 :
+#info= ST
+SDPNK13 := true;
+VIP1MS := false;
+NNVIPMS := true;
+(* Выдать в УУ   *)
+ZNVIZXV := true;
+
+#end_info
+END_ACTION
+TRANSITION T8
+FROM S6
+TO S8 :
+#info= ST
+
+#end_info
+#info= COORD
+[ 32 , 156 ]
+#end_info
+END_TRANSITION
+STEP S7 :
+Action7 (N);
+#info= COORD
+[ 80 , 144 ]
+#end_info
+END_STEP
+ACTION Action7 :
+#info= ST
+SDPNK13 := true;
+VIP1MS := false;
+(* Выдать в УУ *)
+NNVIPMS := true;
+(* Выдать в УУ   *)
+ZNVIZXV := true;
+
+#end_info
+END_ACTION
+TRANSITION T9
+FROM S7
+TO S8 :
+#info= ST
+
+#end_info
+#info= COORD
+[ 80 , 156 ]
+#end_info
+END_TRANSITION
+STEP S8 :
+Action8 (N);
+#info= COORD
+[ 48 , 180 ]
+#end_info
+END_STEP
+ACTION Action8 :
+#info= ST
+
+#end_info
+END_ACTION
+END_PROGRAM]]></PouBody>
+</Pou>

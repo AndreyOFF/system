@@ -1,0 +1,15 @@
+[MAIN]
+NET=0
+CONF=1
+RES=1
+
+
+[NET]
+
+
+[CONF]
+C1=Device1, 0
+
+
+[RES]
+R1=1, Resource1, 1

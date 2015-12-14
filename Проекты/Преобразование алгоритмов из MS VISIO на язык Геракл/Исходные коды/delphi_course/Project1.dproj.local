@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.748,C:\Users\Администратор\Documents\RAD Studio\8.0\Imports\VisOcx_TLB.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.549,=C:\Users\Администратор\Documents\RAD Studio\8.0\Imports\VisOcx_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.360,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.dfm=D:\Саша\Back\delphi_course\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.067,=D:\Саша\Back\delphi_course\Visio_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.084,=D:\Саша\Back\delphi_course\Visio_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.821,=E:\Преобразование алгоритмов из MS VISIO на язык Геракл\Исходные коды\delphi_course\Word_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.717,=D:\Саша\Back\delphi_course\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.804,D:\Саша\Back\delphi_course\Unit2.pas=D:\Саша\Back\delphi_course\Functions.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.648,D:\Саша\Back\delphi_course\Functions.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.360,C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.pas=D:\Саша\Back\delphi_course\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.220,=C:\Users\Администратор\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.783,C:\Users\Администратор\Documents\RAD Studio\Projects\Project1.dproj=D:\Саша\Back\delphi_course\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

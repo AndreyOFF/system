@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.080,=C:\Users\Пользователь\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.775,D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Gerakl_to_SFC_Converter.dproj=D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Gerakl_to_SFC_Converter.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.614,D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Перакл_SFC.dfm=D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\ger2sfc.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.676,=C:\Users\Пользователь\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.967,E:\! UNIVER\-- 5 КУРС\! Диплом\Gerakl 2 SFC Converter\Gerakl_to_SFC_Converter.dproj=E:\! UNIVER\-- 5 КУРС\! Диплом\Gerakl 2 SFC Converter\Gerakl2stf_Converter.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.102,C:\Users\Пользователь\Documents\RAD Studio\Projects\test1.dfm=C:\Users\Пользователь\Documents\RAD Studio\Projects\ger2stf.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.917,C:\Users\Пользователь\Documents\RAD Studio\Projects\test1.dfm=C:\Users\Пользователь\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.614,D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Перакл_SFC.pas=D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\ger2sfc.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.178,E:\! UNIVER\-- 5 КУРС\! Диплом\Gerakl 2 SFC Converter\ger2sfc.pas=E:\! UNIVER\-- 5 КУРС\! Диплом\Gerakl 2 SFC Converter\ger2stf.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.792,D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Геракл_SFC.dproj=D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Геракл_SFC.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.423,D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Преобразование_Геракл_SFC.dfm=D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Перакл_SFC.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.917,C:\Users\Пользователь\Documents\RAD Studio\Projects\test1.pas=C:\Users\Пользователь\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.178,E:\! UNIVER\-- 5 КУРС\! Диплом\Gerakl 2 SFC Converter\ger2sfc.dfm=E:\! UNIVER\-- 5 КУРС\! Диплом\Gerakl 2 SFC Converter\ger2stf.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.423,D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Преобразование_Геракл_SFC.pas=D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Перакл_SFC.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.102,C:\Users\Пользователь\Documents\RAD Studio\Projects\test1.pas=C:\Users\Пользователь\Documents\RAD Studio\Projects\ger2stf.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.611,C:\Users\Пользователь\Documents\RAD Studio\Projects\test_prog1.dproj=C:\Users\Пользователь\Documents\RAD Studio\Projects\Gerakl2stf_Converter.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.710,D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Геракл_SFC.dproj=D:\Гиперсистема\Проекты\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Gerakl_to_SFC_Converter.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.942,C:\Users\Пользователь\Documents\RAD Studio\Projects\test_prog1.dproj=C:\Users\Пользователь\Documents\RAD Studio\Projects\test_prog1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.378,C:\Users\Пользователь\Documents\RAD Studio\Projects\test_prog1.dproj=C:\Users\Пользователь\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

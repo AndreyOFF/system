@@ -1,0 +1,36 @@
+Нач:NVIP
+1:
+FR009=true
+2:
+SDPNK13=true
+VIP1MS=false
+Ком:Выдать в УУ
+NNVIPMS=true
+Ком:Выдать в УУ  
+ZNVIZXV=true
+3:
+Если(SDPNK13 and VIP1MS and NNVIPMS) То 4 Иначе 5
+4:
+NNVIP=true
+6
+5:
+NNVIP=false 
+Ком:Выдать в УУ
+6
+6:
+Если(SDPNK13 and VIP1MS and NNVIPMS) То 7 Иначе 8
+7:
+SDPNK13=true
+VIP1MS=false
+NNVIPMS=true
+Ком:Выдать в УУ  
+ZNVIZXV=true
+8:
+SDPNK13=true
+VIP1MS=false
+Ком:Выдать в УУ
+NNVIPMS=true
+Ком:Выдать в УУ  
+ZNVIZXV=true
+9:
+Кон:NVIP

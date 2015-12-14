@@ -1,0 +1,11 @@
+D:\9 семестр\КУРСАЧИ\Акунович\программа DELPHI\Logical_Formulas_Converter\Logical_Formulas_Converter\bin\Debug\Logical_Formulas_Converter.exe
+D:\9 семестр\КУРСАЧИ\Акунович\программа DELPHI\Logical_Formulas_Converter\Logical_Formulas_Converter\bin\Debug\Logical_Formulas_Converter.pdb
+D:\9 семестр\КУРСАЧИ\Акунович\программа DELPHI\Logical_Formulas_Converter\Logical_Formulas_Converter\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\9 семестр\КУРСАЧИ\Акунович\программа DELPHI\Logical_Formulas_Converter\Logical_Formulas_Converter\obj\x86\Debug\Logical_Formulas_Converter.Form1.resources
+D:\9 семестр\КУРСАЧИ\Акунович\программа DELPHI\Logical_Formulas_Converter\Logical_Formulas_Converter\obj\x86\Debug\Logical_Formulas_Converter.Properties.Resources.resources
+D:\9 семестр\КУРСАЧИ\Акунович\программа DELPHI\Logical_Formulas_Converter\Logical_Formulas_Converter\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\9 семестр\КУРСАЧИ\Акунович\программа DELPHI\Logical_Formulas_Converter\Logical_Formulas_Converter\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\9 семестр\КУРСАЧИ\Акунович\программа DELPHI\Logical_Formulas_Converter\Logical_Formulas_Converter\obj\x86\Debug\Logical_Formulas_Converter.exe
+D:\9 семестр\КУРСАЧИ\Акунович\программа DELPHI\Logical_Formulas_Converter\Logical_Formulas_Converter\obj\x86\Debug\Logical_Formulas_Converter.pdb
+D:\9 семестр\КУРСАЧИ\СДАЧА\Logical_Formulas_Converter\Logical_Formulas_Converter\obj\x86\Debug\Logical_Formulas_Converter.exe
+D:\9 семестр\КУРСАЧИ\СДАЧА\Logical_Formulas_Converter\Logical_Formulas_Converter\obj\x86\Debug\Logical_Formulas_Converter.pdb

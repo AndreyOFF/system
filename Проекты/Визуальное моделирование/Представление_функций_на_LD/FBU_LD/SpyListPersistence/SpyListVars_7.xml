@@ -1,0 +1,1793 @@
+<SpyListVars_7>
+  <xs:schema id="SpyListVars_7" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="SpyListVars_7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ConfigurationInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ToolWindowPaneIndex" type="xs:int" minOccurs="0" />
+                <xs:element name="SpyListName" type="xs:string" minOccurs="0" />
+                <xs:element name="ConfigFileVersion" type="xs:int" minOccurs="0" />
+                <xs:element name="DefaultRefreshRateMonitoring" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFramePositionX" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFramePositionY" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFrameWidth" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFrameHeight" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Variable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" msdata:Caption="Имя" type="xs:string" minOccurs="0" />
+                <xs:element name="Alias" msdata:ReadOnly="true" msdata:Caption="Алиас" type="xs:string" minOccurs="0" />
+                <xs:element name="LogicalValue" msdata:Caption="Логическое значение" type="xs:string" minOccurs="0" />
+                <xs:element name="PhysicalValue" msdata:Caption="Физическое значение" type="xs:string" minOccurs="0" />
+                <xs:element name="Lock" msdata:Caption="Блокировка" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Comment" msdata:ReadOnly="true" msdata:Caption="Комментарий" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" msdata:Caption="Путь доступа" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ForeignCombo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="ComplexFieldsUniqueConstraint">
+        <xs:selector xpath=".//Variable" />
+        <xs:field xpath="FullName" />
+      </xs:unique>
+    </xs:element>
+    <xs:annotation>
+      <xs:appinfo>
+        <msdata:Relationship name="ComboBoxRelation" msdata:parent="Variable" msdata:child="ForeignCombo" msdata:parentkey="Name" msdata:childkey="Name" />
+      </xs:appinfo>
+    </xs:annotation>
+  </xs:schema>
+  <ConfigurationInfo>
+    <ToolWindowPaneIndex>7</ToolWindowPaneIndex>
+    <SpyListName>Соединители X020 ... X028</SpyListName>
+    <ConfigFileVersion>2</ConfigFileVersion>
+    <DefaultRefreshRateMonitoring>100</DefaultRefreshRateMonitoring>
+    <OfflineFramePositionX>-1</OfflineFramePositionX>
+    <OfflineFramePositionY>-1</OfflineFramePositionY>
+    <OfflineFrameWidth>938</OfflineFrameWidth>
+    <OfflineFrameHeight>135</OfflineFrameHeight>
+  </ConfigurationInfo>
+  <Variable>
+    <Name>X020_1</Name>
+    <Alias>Х020_1</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_1</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_2</Name>
+    <Alias>Х020_2</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_2</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_3</Name>
+    <Alias>Х020_3</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_3</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_4</Name>
+    <Alias>Х020_4</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_4</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_5</Name>
+    <Alias>Х020_5</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_5</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_6</Name>
+    <Alias>Х020_6</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_6</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_7</Name>
+    <Alias>Х020_7</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_7</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_8</Name>
+    <Alias>Х020_8</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_8</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_22</Name>
+    <Alias>Х020_22</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_22</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_23</Name>
+    <Alias>Х020_23</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_23</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_24</Name>
+    <Alias>Х020_24</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_24</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_25</Name>
+    <Alias>Х020_25</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_25</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_26</Name>
+    <Alias>Х020_26</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_26</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_27</Name>
+    <Alias>Х020_27</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_27</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_28</Name>
+    <Alias>Х020_28</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_28</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_29</Name>
+    <Alias>Х020_29</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_29</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_30</Name>
+    <Alias>Х020_30</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_30</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_31</Name>
+    <Alias>Х020_31</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_31</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_32</Name>
+    <Alias>Х020_32</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_32</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_33</Name>
+    <Alias>Х020_33</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_33</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_10</Name>
+    <Alias>Х020_10</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_10</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_11</Name>
+    <Alias>Х020_11</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_11</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_12</Name>
+    <Alias>Х020_12</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_12</FullName>
+  </Variable>
+  <Variable>
+    <Name>X020_13</Name>
+    <Alias>Х020_13</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_13</FullName>
+  </Variable>
+  <Variable>
+    <Name>X021_1</Name>
+    <Alias>Х021_1</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X021_1</FullName>
+  </Variable>
+  <Variable>
+    <Name>X021_16</Name>
+    <Alias>Х021_16</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X021_16</FullName>
+  </Variable>
+  <Variable>
+    <Name>X021_22</Name>
+    <Alias>Х021_22</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X021_22</FullName>
+  </Variable>
+  <Variable>
+    <Name>X021_37</Name>
+    <Alias>Х021_37</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X021_37</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_25</Name>
+    <Alias>Х022_25</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_25</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_23</Name>
+    <Alias>Х022_23</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_23</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_4</Name>
+    <Alias>Х022_4</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_4</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_36</Name>
+    <Alias>Х022_36</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_36</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_9</Name>
+    <Alias>Х022_9</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_9</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_10</Name>
+    <Alias>Х022_10</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_10</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_11</Name>
+    <Alias>Х022_11</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_11</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_29</Name>
+    <Alias>Х022_29</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_29</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_28</Name>
+    <Alias>Х022_28</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_28</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_5</Name>
+    <Alias>Х022_5</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_5</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_22</Name>
+    <Alias>Х022_22</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_22</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_3</Name>
+    <Alias>Х022_3</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_3</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_24</Name>
+    <Alias>Х022_24</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_24</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_8</Name>
+    <Alias>Х022_8</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_8</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_26</Name>
+    <Alias>Х022_26</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_26</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_27</Name>
+    <Alias>Х022_27</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_27</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_30</Name>
+    <Alias>Х022_30</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_30</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_31</Name>
+    <Alias>Х022_31</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_31</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_32</Name>
+    <Alias>Х022_32</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_32</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_2</Name>
+    <Alias>Х022_2</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_2</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_34</Name>
+    <Alias>Х022_34</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_34</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_40</Name>
+    <Alias>Х022_40</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_40</FullName>
+  </Variable>
+  <Variable>
+    <Name>X022_41</Name>
+    <Alias>Х022_41</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_41</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_1</Name>
+    <Alias>Х024_1</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_1</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_4</Name>
+    <Alias>Х024_4</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_4</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_5</Name>
+    <Alias>Х024_5</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_5</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_6</Name>
+    <Alias>Х024_6</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_6</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_7</Name>
+    <Alias>Х024_7</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_7</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_8</Name>
+    <Alias>Х024_8</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_8</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_9</Name>
+    <Alias>Х024_9</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_9</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_10</Name>
+    <Alias>Х024_10</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_10</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_11</Name>
+    <Alias>Х024_11</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_11</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_12</Name>
+    <Alias>Х024_12</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_12</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_13</Name>
+    <Alias>Х024_13</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_13</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_14</Name>
+    <Alias>Х024_14</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_14</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_15</Name>
+    <Alias>Х024_15</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_15</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_16</Name>
+    <Alias>Х024_16</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_16</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_17</Name>
+    <Alias>Х024_17</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_17</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_18</Name>
+    <Alias>Х024_18</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_18</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_19</Name>
+    <Alias>Х024_19</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_19</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_20</Name>
+    <Alias>Х024_20</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_20</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_22</Name>
+    <Alias>Х024_22</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_22</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_23</Name>
+    <Alias>Х024_23</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_23</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_26</Name>
+    <Alias>Х024_26</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_26</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_27</Name>
+    <Alias>Х024_27</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_27</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_28</Name>
+    <Alias>Х024_28</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_28</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_29</Name>
+    <Alias>Х024_29</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_29</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_30</Name>
+    <Alias>Х024_30</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_30</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_31</Name>
+    <Alias>Х024_31</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_31</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_32</Name>
+    <Alias>Х024_32</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_32</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_33</Name>
+    <Alias>Х024_33</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_33</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_34</Name>
+    <Alias>Х024_34</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_34</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_35</Name>
+    <Alias>Х024_35</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_35</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_36</Name>
+    <Alias>Х024_36</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_36</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_37</Name>
+    <Alias>Х024_37</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_37</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_38</Name>
+    <Alias>Х024_38</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_38</FullName>
+  </Variable>
+  <Variable>
+    <Name>X024_39</Name>
+    <Alias>Х024_39</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_39</FullName>
+  </Variable>
+  <Variable>
+    <Name>X025_1</Name>
+    <Alias>Х025_1</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_1</FullName>
+  </Variable>
+  <Variable>
+    <Name>X025_4</Name>
+    <Alias>Х025_4</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_4</FullName>
+  </Variable>
+  <Variable>
+    <Name>X025_5</Name>
+    <Alias>Х025_5</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_5</FullName>
+  </Variable>
+  <Variable>
+    <Name>X025_6</Name>
+    <Alias>Х025_6</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_6</FullName>
+  </Variable>
+  <Variable>
+    <Name>X025_7</Name>
+    <Alias>Х025_7</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_7</FullName>
+  </Variable>
+  <Variable>
+    <Name>X025_8</Name>
+    <Alias>Х025_8</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_8</FullName>
+  </Variable>
+  <Variable>
+    <Name>X025_9</Name>
+    <Alias>Х025_9</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_9</FullName>
+  </Variable>
+  <Variable>
+    <Name>X025_10</Name>
+    <Alias>Х025_10</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_10</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_1</Name>
+    <Alias>Х028_1</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_1</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_2</Name>
+    <Alias>Х028_2</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_2</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_3</Name>
+    <Alias>Х028_3</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_3</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_4</Name>
+    <Alias>Х028_4</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_4</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_5</Name>
+    <Alias>Х028_5</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_5</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_6</Name>
+    <Alias>Х028_6</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_6</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_7</Name>
+    <Alias>Х028_7</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_7</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_8</Name>
+    <Alias>Х028_8</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_8</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_9</Name>
+    <Alias>Х028_9</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_9</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_10</Name>
+    <Alias>Х028_10</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_10</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_11</Name>
+    <Alias>Х028_11</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_11</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_12</Name>
+    <Alias>Х028_12</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_12</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_13</Name>
+    <Alias>Х028_13</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_13</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_14</Name>
+    <Alias>Х028_14</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_14</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_15</Name>
+    <Alias>Х028_15</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_15</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_16</Name>
+    <Alias>Х028_16</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_16</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_17</Name>
+    <Alias>Х028_17</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_17</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_18</Name>
+    <Alias>Х028_18</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_18</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_19</Name>
+    <Alias>Х028_19</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_19</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_20</Name>
+    <Alias>Х028_20</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_20</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_22</Name>
+    <Alias>Х028_22</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_22</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_23</Name>
+    <Alias>Х028_23</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_23</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_24</Name>
+    <Alias>Х028_24</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_24</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_25</Name>
+    <Alias>Х028_25</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_25</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_26</Name>
+    <Alias>Х028_26</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_26</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_27</Name>
+    <Alias>Х028_27</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_27</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_28</Name>
+    <Alias>Х028_28</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_28</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_29</Name>
+    <Alias>Х028_29</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_29</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_30</Name>
+    <Alias>Х028_30</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_30</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_31</Name>
+    <Alias>Х028_31</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_31</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_32</Name>
+    <Alias>Х028_32</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_32</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_33</Name>
+    <Alias>Х028_33</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_33</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_34</Name>
+    <Alias>Х028_34</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_34</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_35</Name>
+    <Alias>Х028_35</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_35</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_36</Name>
+    <Alias>Х028_36</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_36</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_37</Name>
+    <Alias>Х028_37</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_37</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_38</Name>
+    <Alias>Х028_38</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_38</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_39</Name>
+    <Alias>Х028_39</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_39</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_40</Name>
+    <Alias>Х028_40</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_40</FullName>
+  </Variable>
+  <Variable>
+    <Name>X028_41</Name>
+    <Alias>Х028_41</Alias>
+    <LogicalValue />
+    <PhysicalValue />
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_41</FullName>
+  </Variable>
+  <ForeignCombo>
+    <Name>X020_1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_4</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_4</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_5</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_5</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_6</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_6</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_7</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_7</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_8</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_8</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_22</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_22</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_23</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_23</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_24</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_24</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_25</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_25</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_26</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_26</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_27</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_27</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_28</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_28</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_29</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_29</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_30</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_30</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_31</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_31</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_32</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_32</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_33</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_33</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_10</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_10</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_11</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_11</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_12</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_12</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X020_13</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X020_13</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X021_1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X021_1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X021_16</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X021_16</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X021_22</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X021_22</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X021_37</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X021_37</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_25</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_25</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_23</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_23</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_4</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_4</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_36</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_36</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_9</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_9</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_10</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_10</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_11</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_11</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_29</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_29</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_28</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_28</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_5</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_5</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_22</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_22</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_24</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_24</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_8</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_8</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_26</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_26</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_27</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_27</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_30</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_30</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_31</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_31</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_32</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_32</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_34</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_34</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_40</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_40</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X022_41</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X022_41</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_4</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_4</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_5</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_5</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_6</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_6</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_7</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_7</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_8</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_8</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_9</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_9</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_10</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_10</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_11</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_11</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_12</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_12</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_13</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_13</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_14</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_14</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_15</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_15</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_16</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_16</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_17</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_17</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_18</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_18</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_19</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_19</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_20</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_20</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_22</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_22</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_23</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_23</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_26</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_26</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_27</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_27</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_28</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_28</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_29</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_29</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_30</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_30</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_31</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_31</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_32</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_32</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_33</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_33</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_34</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_34</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_35</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_35</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_36</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_36</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_37</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_37</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_38</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_38</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X024_39</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X024_39</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X025_1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X025_4</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_4</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X025_5</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_5</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X025_6</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_6</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X025_7</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_7</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X025_8</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_8</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X025_9</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_9</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X025_10</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X025_10</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_4</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_4</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_5</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_5</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_6</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_6</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_7</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_7</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_8</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_8</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_9</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_9</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_10</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_10</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_11</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_11</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_12</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_12</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_13</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_13</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_14</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_14</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_15</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_15</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_16</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_16</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_17</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_17</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_18</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_18</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_19</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_19</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_20</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_20</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_22</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_22</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_23</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_23</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_24</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_24</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_25</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_25</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_26</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_26</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_27</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_27</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_28</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_28</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_29</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_29</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_30</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_30</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_31</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_31</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_32</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_32</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_33</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_33</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_34</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_34</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_35</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_35</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_36</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_36</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_37</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_37</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_38</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_38</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_39</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_39</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_40</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_40</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>X028_41</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.X028_41</FullName>
+  </ForeignCombo>
+</SpyListVars_7>

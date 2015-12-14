@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pou FileVersion="200.00.000" Name="Prog1" ElementGuid="bb023af5-9341-4e81-b9cd-eac33d95d1e4" Comment="" SingleTextLine="" Language="LD" CustomFbd="0" Localization="Prj" GroupName="(Определяемый пользователем)" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="true" Is1499="false">
+<Program />
+<LocalVars>
+<Variable Name="Q1" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="Q1" AccessRights="ReadWrite" StringSize="0" />
+<Variable Name="Q2" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="Q2" AccessRights="ReadWrite" StringSize="0" />
+<Variable Name="Q3" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="Q3" AccessRights="ReadWrite" StringSize="0" />
+<Variable Name="Q4" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="Q4" AccessRights="ReadWrite" StringSize="0" />
+<Variable Name="Q5" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="Q5" AccessRights="ReadWrite" StringSize="0" />
+<Variable Name="Q6" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="Q6" AccessRights="ReadWrite" StringSize="0" />
+</LocalVars>
+<PouBody><![CDATA[PROGRAM Prog1
+#info= QLD
+BOF
+
+
+(**)
+
+SOR  [0,1] (**) (**)
+EOR [1,0]
+
+(*Q1 = ( Q2 + Q3 ) * ( Q4 + Q5 ) + ^ Q6*)
+
+  SOR  [0,2]  (**)  (**)  BST  BST  XIC  [1,0]  (*Q2*)  (*Q2*)  NXB  XIC  [1,1]  (*Q3*)  (*Q3*)  BND  BST  XIC  [2,0]  (*Q4*)  (*Q4*)  NXB  XIC  [1,1]  (*Q5*)  (*Q5*)  BND  NXB  XIO  [1,1]  (*Q6*)  (*Q6*)  BND  OTE  [2,0]  (*Q1*)  (*Q1*)  EOR  [3,0] 
+EOF
+#end_info
+END_PROGRAM]]></PouBody>
+</Pou>

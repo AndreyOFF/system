@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Project1" FileVersion="200.00.000" Comment="" SingleTextLine="template" DbVersion="05.30.19" LegacyBinding="true" Password="" ReadOnly="false">
+  <FileHeader CompanyName="ISaGRAF Inc." ProductName="CAM ISaGRAF 5" CompanyUrl="http://www.isagraf.com" ProductVersion="0" />
+  <Libraries />
+  <DefineWords />
+  <DataTypes />
+  <Networks>
+    <Network Name="HSD" SingleTextLine="" LocalNet="true" DistributedNet="false" Comment="" UsedForBinding="true" BindingService="false" AllowWorkbenchCommunications="true">
+      <Parameters />
+      <ConnectionParameters />
+      <ResourceParameters>
+        <Parameter Name="ValidityTime" Format="Long" Default="0" Access="UserDefined" SingleTextLine="Produced Variables validity time." LocalNet="false" DistributedNet="false" />
+      </ResourceParameters>
+      <VariableParameters />
+    </Network>
+    <Network Name="ETCP" SingleTextLine="" LocalNet="false" DistributedNet="true" Comment="" UsedForBinding="true" BindingService="false" AllowWorkbenchCommunications="true">
+      <Parameters />
+      <ConnectionParameters>
+        <Parameter Name="IPAddress" Format="String" Default="" Access="UserDefined" SingleTextLine="IP address or Computer name" LocalNet="false" DistributedNet="true" />
+      </ConnectionParameters>
+      <ResourceParameters>
+        <Parameter Name="TimeOut" Format="Long" Default="10000" Access="UserDefined" SingleTextLine="Maximum allowed time (in ms) to transport a variable" LocalNet="false" DistributedNet="false" />
+      </ResourceParameters>
+      <VariableParameters />
+    </Network>
+    <Network Name="ISARSI" SingleTextLine="" LocalNet="false" DistributedNet="true" Comment="" UsedForBinding="false" BindingService="false" AllowWorkbenchCommunications="true">
+      <Parameters>
+        <Parameter Name="Port" Format="String" Default="COM1" Access="UserDefined" SingleTextLine="Workbench communication port" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="BaudRate" Format="Long" Default="19200" Access="UserDefined" SingleTextLine="Data transfer baud rate" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="Parity" Format="Character" Default="N" Access="UserDefined" SingleTextLine="N: None, E: Even, O: Odd" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="StopBit" Format="Word" Default="1" Access="UserDefined" SingleTextLine="1 or 2 Stop bits" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="HardwareFlowControl" Format="Boolean" Default="FALSE" Access="UserDefined" SingleTextLine="TRUE when using hardware flow control" LocalNet="false" DistributedNet="true" />
+      </Parameters>
+      <ConnectionParameters />
+      <ResourceParameters />
+      <VariableParameters />
+    </Network>
+  </Networks>
+  <NetworkInstances />
+  <Targets>
+    <Target Name="SIMULATOR" />
+  </Targets>
+  <Configurations>
+    <Configuration Name="Device1" ElementGuid="488c193c-4f58-46aa-bce9-5dda7675a50a" />
+  </Configurations>
+</Project>

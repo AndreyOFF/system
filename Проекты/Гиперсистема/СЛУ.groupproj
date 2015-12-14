@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C5CFDE92-81AF-4AC3-83C3-AC776D918FC4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ТЗ_1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Ввод модели\Ввод_модели.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Синтез модели\Синтез_модели.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Итерационное моделирование\Итерационное_моделирование.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Визуальное моделирование\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Геракл_SFC.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Визуальное моделирование\Представление_функций_на_LD\Функции_LD\Функции_LD.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ТЗ_1">
+        <MSBuild Projects="ТЗ_1.dproj"/>
+    </Target>
+    <Target Name="ТЗ_1:Clean">
+        <MSBuild Projects="ТЗ_1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ТЗ_1:Make">
+        <MSBuild Projects="ТЗ_1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Ввод_модели">
+        <MSBuild Projects="..\Ввод модели\Ввод_модели.dproj"/>
+    </Target>
+    <Target Name="Ввод_модели:Clean">
+        <MSBuild Projects="..\Ввод модели\Ввод_модели.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Ввод_модели:Make">
+        <MSBuild Projects="..\Ввод модели\Ввод_модели.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Синтез_модели">
+        <MSBuild Projects="..\Синтез модели\Синтез_модели.dproj"/>
+    </Target>
+    <Target Name="Синтез_модели:Clean">
+        <MSBuild Projects="..\Синтез модели\Синтез_модели.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Синтез_модели:Make">
+        <MSBuild Projects="..\Синтез модели\Синтез_модели.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Итерационное_моделирование">
+        <MSBuild Projects="..\Итерационное моделирование\Итерационное_моделирование.dproj"/>
+    </Target>
+    <Target Name="Итерационное_моделирование:Clean">
+        <MSBuild Projects="..\Итерационное моделирование\Итерационное_моделирование.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Итерационное_моделирование:Make">
+        <MSBuild Projects="..\Итерационное моделирование\Итерационное_моделирование.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Геракл_SFC">
+        <MSBuild Projects="..\Визуальное моделирование\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Геракл_SFC.dproj"/>
+    </Target>
+    <Target Name="Геракл_SFC:Clean">
+        <MSBuild Projects="..\Визуальное моделирование\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Геракл_SFC.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Геракл_SFC:Make">
+        <MSBuild Projects="..\Визуальное моделирование\Представление_алгоритмов_на_SFC\Gerakl 2 SFC Converter\Геракл_SFC.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Функции_LD">
+        <MSBuild Projects="..\Визуальное моделирование\Представление_функций_на_LD\Функции_LD\Функции_LD.dproj"/>
+    </Target>
+    <Target Name="Функции_LD:Clean">
+        <MSBuild Projects="..\Визуальное моделирование\Представление_функций_на_LD\Функции_LD\Функции_LD.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Функции_LD:Make">
+        <MSBuild Projects="..\Визуальное моделирование\Представление_функций_на_LD\Функции_LD\Функции_LD.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ТЗ_1;Ввод_модели;Синтез_модели;Итерационное_моделирование;Геракл_SFC;Функции_LD"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ТЗ_1:Clean;Ввод_модели:Clean;Синтез_модели:Clean;Итерационное_моделирование:Clean;Геракл_SFC:Clean;Функции_LD:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ТЗ_1:Make;Ввод_модели:Make;Синтез_модели:Make;Итерационное_моделирование:Make;Геракл_SFC:Make;Функции_LD:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

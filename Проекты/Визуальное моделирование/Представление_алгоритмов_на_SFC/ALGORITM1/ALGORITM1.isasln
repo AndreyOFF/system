@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ISaGRAF Solution File, Format Version 11.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Представления решений", "Представления решений", "{0C838AED-2061-475E-9E9C-BAF2C38FD266}"
+	ProjectSection(SolutionItems) = preProject
+		..\Pattern_SFC\Deployment.isadpl = ..\Pattern_SFC\Deployment.isadpl
+		Deployment.isadpl = Deployment.isadpl
+	EndProjectSection
+	ProjectSection(FolderGlobals) = preProject
+		DeploymentSolutionViews = True
+	EndProjectSection
+EndProject
+Project("{A6F45E2C-46AC-4E2B-9F75-4E058226B5AB}") = "ALGORITM1", "ALGORITM1\ALGORITM1.acfproj", "{3AE0B788-7E26-45E2-8443-B4B2778DA6C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Моделирование|Any CPU = Моделирование|Any CPU
+		Онлайн|Any CPU = Онлайн|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AE0B788-7E26-45E2-8443-B4B2778DA6C4}.Моделирование|Any CPU.ActiveCfg = Моделирование|Any CPU
+		{3AE0B788-7E26-45E2-8443-B4B2778DA6C4}.Моделирование|Any CPU.Build.0 = Моделирование|Any CPU
+		{3AE0B788-7E26-45E2-8443-B4B2778DA6C4}.Онлайн|Any CPU.ActiveCfg = Онлайн|Any CPU
+		{3AE0B788-7E26-45E2-8443-B4B2778DA6C4}.Онлайн|Any CPU.Build.0 = Онлайн|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

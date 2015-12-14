@@ -1,0 +1,15 @@
+0::0006-0003::-------------------- Erstellung Ressource: RESOURCE1  Konfiguration: DEVICE1 --------------
+0::0001-0003::Kompilierung fЭr SIMULATOR
+0::0000-0003::PROG1
+2:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:T2:32,60::0,1:0060-0000:DPNK13:nicht deklarierter Bezeichner
+2:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:T2:32,60::0,1:0013-0000::=:muss vor einem Ausdruck des Typs BOOL stehen
+2:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:T3:80,60::0,1:0060-0000:DPNK13:nicht deklarierter Bezeichner
+2:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:T3:80,60::0,1:0064-0000:(:muss einem Ausdruck vorangehen   
+2:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:T3:80,60::0,1:0013-0000::=:muss vor einem Ausdruck des Typs BOOL stehen
+2:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:T6:32,132::0,1:0060-0000:DPNK13:nicht deklarierter Bezeichner
+2:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:T6:32,132::0,1:0013-0000::=:muss vor einem Ausdruck des Typs BOOL stehen
+2:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:T7:80,132::0,1:0060-0000:DPNK13:nicht deklarierter Bezeichner
+2:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:T7:80,132::0,1:0064-0000:(:muss einem Ausdruck vorangehen   
+2:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:T7:80,132::0,1:0013-0000::=:muss vor einem Ausdruck des Typs BOOL stehen
+1:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:0002-0003::    10 Fehler, 0 Warnmeldung(en)
+0:D:\цхоепяхярелю\опнейрш\опенапюгнбюмхе юкцнпхрлнб я ъгшйю цепюйк мю SFC\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:0002-0003::RESOURCE1:    10 Fehler, 0 Warnmeldung(en)

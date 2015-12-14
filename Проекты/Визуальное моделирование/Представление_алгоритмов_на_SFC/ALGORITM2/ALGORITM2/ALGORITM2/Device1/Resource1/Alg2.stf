@@ -1,0 +1,202 @@
+PROGRAM Alg2
+TRANSITION __GT0
+FROM 
+TO S1 :
+#info= ORDIV
+COORD= 56 49
+COORD= 40 59
+COORD= 88 59
+#end_info
+#info= ORCONV
+COORD= 56 107
+COORD= 40 97
+COORD= 88 97
+#end_info
+#info= LINK
+COORD= 56 23
+COORD= 56 25
+FROM= 2 S1
+TO= 3 T1
+#end_info
+#info= LINK
+COORD= 56 35
+COORD= 56 37
+FROM= 3 T1
+TO= 2 S2
+#end_info
+#info= LINK
+COORD= 56 47
+COORD= 56 49
+FROM= 2 S2
+TO= 7
+#end_info
+#info= LINK
+COORD= 40 59
+COORD= 40 61
+FROM= 7
+TO= 3 T2
+#end_info
+#info= LINK
+COORD= 40 71
+COORD= 40 73
+FROM= 3 T2
+TO= 2 S3
+#end_info
+#info= LINK
+COORD= 88 59
+COORD= 88 61
+FROM= 7
+TO= 3 T3
+#end_info
+#info= LINK
+COORD= 88 71
+COORD= 88 73
+FROM= 3 T3
+TO= 2 S4
+#end_info
+#info= LINK
+COORD= 40 83
+COORD= 40 85
+FROM= 2 S3
+TO= 3 T4
+#end_info
+#info= LINK
+COORD= 40 95
+COORD= 40 97
+FROM= 3 T4
+TO= 8
+#end_info
+#info= LINK
+COORD= 88 83
+COORD= 88 85
+FROM= 2 S4
+TO= 3 T5
+#end_info
+#info= LINK
+COORD= 88 95
+COORD= 88 97
+FROM= 3 T5
+TO= 8
+#end_info
+#info= LINK
+COORD= 56 107
+COORD= 56 109
+FROM= 8
+TO= 2 S5
+#end_info
+END_TRANSITION
+INITIAL_STEP S1 :
+Action1 (N);
+#info= COORD
+[ 48 , 12 ]
+#end_info
+END_STEP
+ACTION Action1 :
+#info= ST
+FR009 := true;
+
+#end_info
+END_ACTION
+TRANSITION T1
+FROM S1
+TO S2 :
+#info= ST
+
+#end_info
+#info= COORD
+[ 48 , 24 ]
+#end_info
+END_TRANSITION
+STEP S2 :
+Action2 (N);
+#info= COORD
+[ 48 , 36 ]
+#end_info
+END_STEP
+ACTION Action2 :
+#info= ST
+SDPNK13 := true;
+VIP1MS := false;
+NNVIPMS := true;
+
+#end_info
+END_ACTION
+TRANSITION T2
+FROM S2
+TO S3 :
+#info= ST
+SDPNK13 and VIP1MS and NNVIPMS;
+
+#end_info
+#info= COORD
+[ 32 , 60 ]
+#end_info
+END_TRANSITION
+TRANSITION T3
+FROM S2
+TO S4 :
+#info= ST
+not(SDPNK13 and VIP1MS and NNVIPMS);
+
+#end_info
+#info= COORD
+[ 80 , 60 ]
+#end_info
+END_TRANSITION
+STEP S3 :
+Action3 (N);
+#info= COORD
+[ 32 , 72 ]
+#end_info
+END_STEP
+ACTION Action3 :
+#info= ST
+NNVIP := true;
+
+#end_info
+END_ACTION
+TRANSITION T4
+FROM S3
+TO S5 :
+#info= ST
+
+#end_info
+#info= COORD
+[ 32 , 84 ]
+#end_info
+END_TRANSITION
+STEP S4 :
+Action4 (N);
+#info= COORD
+[ 80 , 72 ]
+#end_info
+END_STEP
+ACTION Action4 :
+#info= ST
+(* Выдать в УУ СК1 Fпвип на t 50-100мс  *)
+NNVIP := false;
+
+#end_info
+END_ACTION
+TRANSITION T5
+FROM S4
+TO S5 :
+#info= ST
+
+#end_info
+#info= COORD
+[ 80 , 84 ]
+#end_info
+END_TRANSITION
+STEP S5 :
+Action5 (N);
+#info= COORD
+[ 48 , 108 ]
+#end_info
+END_STEP
+ACTION Action5 :
+#info= ST
+
+#end_info
+END_ACTION
+END_PROGRAM

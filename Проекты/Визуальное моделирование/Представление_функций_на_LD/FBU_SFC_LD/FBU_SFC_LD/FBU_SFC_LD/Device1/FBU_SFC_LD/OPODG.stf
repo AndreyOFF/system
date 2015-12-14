@@ -1,0 +1,76 @@
+PROGRAM OPODG
+If Sopdo Then
+Blok := 2;
+Bloks_execute := False;
+Repeat
+(*while not Bloks_execute do*)
+case Blok of
+1:
+FR021:= True;
+ If  opdo  Then Blok := 2;
+ ELSE Blok :=  15;
+ End_if;
+2:T_opdo:= False;
+XRK42:=True;
+X2KY18:=True;
+X2KY71:=True;
+X2KY1B:=True;
+X2KY72:=True;
+X2KY3F:=True;
+X2KY73:=True;
+X2KY41:=True;
+X2KY74:=True;
+X2KY04:=True;
+X2KY75:=True;
+X2KY07:=True;
+ If  pndk1  Then Blok := 3;  Else Blok :=  5;
+ End_if;
+3:
+X2KY78:=True;;
+ If  zkudk  Then Blok := 4;  Else Blok :=  5;
+ End_if;
+4:
+X2KY46:=True;
+Blok := 5;
+5:
+X2KY07:=True;
+ If  pndk2  Then Blok := 6;  Else Blok :=  8;
+ End_if;
+6:
+X2KY79:=True;
+ If   Not zkudk  Then Blok := 7;  Else Blok :=  8;
+ End_if;
+7:
+X2KY49:=True;
+Blok := 8;
+8:
+ If  pndk3  Then Blok := 9;  Else Blok :=  11;
+ End_if;
+9:
+X2KY6E:=True;
+ If   Not zkudk  Then Blok := 10;  Else Blok :=  11;
+ End_if;
+10:
+X2KY5A:=True;
+Blok := 11;
+11:
+ If  pndk4  Then Blok := 12;  Else Blok :=  14;
+End_if;
+12:
+X2KY6F:=True;
+ If   Not zkudk  Then Blok := 13;  Else Blok :=  14;
+ End_if;
+13:
+X2KY5D:=True;
+Blok := 14;
+14:
+X2KY0C:=True;
+Blok := 15;
+15:
+Bloks_execute := True;
+End_Case;
+Bloks_execute := False;
+Until Bloks_execute
+End_Repeat;
+End_if;
+END_PROGRAM

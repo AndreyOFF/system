@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.799,C:\Users\СТАС\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\СТАС\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.388,E:\Гиперсистема 18.08.13\Проекты\Визуальное моделирование\Представление_функций_на_LD\ФункцииLD.pas=C:\Users\СТАС\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.245,D:\Гиперсистема\Проекты\Визуальное моделирование\Представление_функций_на_LD\Функции_LD\Функции_LD.dproj=D:\Гиперсистема\Проекты\Визуальное моделирование\Представление_функций_на_LD\Функции_LD\Функции_LD.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.243,E:\Гиперсистема 18.08.13\Проекты\Визуальное моделирование\Представление_функций_на_LD\Функции_LD.dproj=C:\Users\СТАС\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.388,E:\Гиперсистема 18.08.13\Проекты\Визуальное моделирование\Представление_функций_на_LD\ФункцииLD.dfm=C:\Users\СТАС\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.065,=C:\Users\СТАС\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

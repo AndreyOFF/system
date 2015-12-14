@@ -1,0 +1,6 @@
+0::0021-0003::Checking database...
+0::0047-0003::-------------------- Check project for resource(s) to pre-build: ALGORITM2 --------------------
+1::0002-0003::ALGORITM2:    0 error(s), 0 warning(s)
+0::0021-0003::Checking database...
+0::0007-0003::-------------------- Build project: ALGORITM2 --------------------
+1::0002-0003::ALGORITM2:    0 error(s), 0 warning(s)

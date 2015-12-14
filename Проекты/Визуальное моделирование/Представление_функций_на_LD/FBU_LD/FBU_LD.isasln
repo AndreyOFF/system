@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ISaGRAF Solution File, Format Version 11.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Представления решений", "Представления решений", "{0E4B031A-4090-44C2-8680-8312EA0EF05F}"
+	ProjectSection(SolutionItems) = preProject
+		..\Pattern_LD\Deployment.isadpl = ..\Pattern_LD\Deployment.isadpl
+		Deployment.isadpl = Deployment.isadpl
+	EndProjectSection
+	ProjectSection(FolderGlobals) = preProject
+		DeploymentSolutionViews = True
+	EndProjectSection
+EndProject
+Project("{A6F45E2C-46AC-4E2B-9F75-4E058226B5AB}") = "FBU_LD", "FBU_LD\FBU_LD.acfproj", "{4673C3AF-BD20-4ED1-913A-91EEA34D59A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Моделирование|Any CPU = Моделирование|Any CPU
+		Онлайн|Any CPU = Онлайн|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4673C3AF-BD20-4ED1-913A-91EEA34D59A8}.Моделирование|Any CPU.ActiveCfg = Моделирование|Any CPU
+		{4673C3AF-BD20-4ED1-913A-91EEA34D59A8}.Моделирование|Any CPU.Build.0 = Моделирование|Any CPU
+		{4673C3AF-BD20-4ED1-913A-91EEA34D59A8}.Онлайн|Any CPU.ActiveCfg = Онлайн|Any CPU
+		{4673C3AF-BD20-4ED1-913A-91EEA34D59A8}.Онлайн|Any CPU.Build.0 = Онлайн|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

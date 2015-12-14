@@ -1,0 +1,7 @@
+0::0006-0003::-------------------- Build resource: RESOURCE1    Configuration: DEVICE1 --------------
+0::0001-0003::Compiling for SIMULATOR
+0::0000-0003::PROG1
+2:G:\слй_яя\до яя\дхокнлмше опнейрш 2014\хбюмюьйн нкэцю бюкепэебмю\опнейр\опнейр\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:S1:48,12:Action1:0,2:0060-0000:PROCED:undeclared identifier
+2:G:\слй_яя\до яя\дхокнлмше опнейрш 2014\хбюмюьйн нкэцю бюкепэебмю\опнейр\опнейр\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:S2:48,36:Action2:0,2:0060-0000:FUNC:undeclared identifier
+1:G:\слй_яя\до яя\дхокнлмше опнейрш 2014\хбюмюьйн нкэцю бюкепэебмю\опнейр\опнейр\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:0002-0003::    2 error(s), 0 warning(s)
+0:G:\слй_яя\до яя\дхокнлмше опнейрш 2014\хбюмюьйн нкэцю бюкепэебмю\опнейр\опнейр\SFC_CONVERT\SFC_CONVERT\SFC_CONVERT\DEVICE1\RESOURCE1\PROG1:0002-0003::RESOURCE1:    2 error(s), 0 warning(s)

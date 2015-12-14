@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.Итерационное_моделирование" Type="System.String" Value="Итерационное_моделирование" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Unit12pas" Type="System.String" Value="Unit12pas" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Управление_моделированием" Type="System.String" Value="Управление_моделированием" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Средства_моделирования" Type="System.String" Value="Средства_моделирования" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ВП" Type="System.String" Value="ВП" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ЦПМ" Type="System.String" Value="ЦПМ" Category="General" IsBrowsable="False" />
+  <Option Name="Gendoc.Images" Type="System.Boolean" Value="True" Category="General" IsBrowsable="False" />
+  <Option Name="Gendoc.NavigationTree" Type="System.Boolean" Value="True" Category="General" IsBrowsable="False" />
+  <Option Name="Gendoc.LaunchBrowser" Type="System.Boolean" Value="True" Category="General" IsBrowsable="False" />
+  <Option Name="Gendoc.OutputFolder" Type="System.String" Value="D:\КИМ\out\doc" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ВВП" Type="System.String" Value="ВВП" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.ИМС" Type="System.String" Value="ИМС" Category="General" IsBrowsable="False" />
+</TgConfig>

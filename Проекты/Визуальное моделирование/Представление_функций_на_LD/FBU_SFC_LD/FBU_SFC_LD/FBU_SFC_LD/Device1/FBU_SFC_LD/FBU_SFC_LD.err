@@ -1,0 +1,9 @@
+0::0006-0003::-------------------- Build resource: FBU_SFC_LD    Configuration: DEVICE1 --------------
+0::0001-0003::Compiling for SIMULATOR
+0::0000-0003::FBU_LD
+0:D:\цхоепяхярелю\опнейрш\бхгсюкэмне лндекхпнбюмхе\опедярюбкемхе_тсмйжхи_мю_LD\FBU_SFC_LD\FBU_SFC_LD\FBU_SFC_LD\DEVICE1\FBU_SFC_LD\FBU_LD:0000-0003::FBU_SFC
+0:D:\цхоепяхярелю\опнейрш\бхгсюкэмне лндекхпнбюмхе\опедярюбкемхе_тсмйжхи_мю_LD\FBU_SFC_LD\FBU_SFC_LD\FBU_SFC_LD\DEVICE1\FBU_SFC_LD\FBU_SFC:0000-0003::OPODG
+2:D:\цхоепяхярелю\опнейрш\бхгсюкэмне лндекхпнбюмхе\опедярюбкемхе_тсмйжхи_мю_LD\FBU_SFC_LD\FBU_SFC_LD\FBU_SFC_LD\DEVICE1\FBU_SFC_LD\OPODG:OPODG:48,120::0,4:0084-0000:REPEAT:WARNING: Dangerous statement (PLC cycle may be blocked)
+1:D:\цхоепяхярелю\опнейрш\бхгсюкэмне лндекхпнбюмхе\опедярюбкемхе_тсмйжхи_мю_LD\FBU_SFC_LD\FBU_SFC_LD\FBU_SFC_LD\DEVICE1\FBU_SFC_LD\OPODG:0002-0003::    0 error(s), 1 warning(s)
+0:D:\цхоепяхярелю\опнейрш\бхгсюкэмне лндекхпнбюмхе\опедярюбкемхе_тсмйжхи_мю_LD\FBU_SFC_LD\FBU_SFC_LD\FBU_SFC_LD\DEVICE1\FBU_SFC_LD\OPODG:0003-0003::Linking for SIMULATOR
+0:D:\цхоепяхярелю\опнейрш\бхгсюкэмне лндекхпнбюмхе\опедярюбкемхе_тсмйжхи_мю_LD\FBU_SFC_LD\FBU_SFC_LD\FBU_SFC_LD\DEVICE1\FBU_SFC_LD\OPODG:0002-0003::FBU_SFC_LD:    0 error(s), 1 warning(s)

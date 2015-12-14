@@ -1,0 +1,46 @@
+PROGRAM Prog1
+#info= QLD
+BOF
+
+
+(**)
+
+SOR  [0,1] (**) (**)
+EOR [1,0]
+
+
+(*Q1 = ( Q2 + Q3 ) * ( ( Q7 + ^ ( Q7 + ^ Q8 ) * ( Q9 + Q10 ) ) * ( Q9 + Q10 ) + Q5 ) + ^ Q6*)
+
+SOR  [0,2] (**) (**)  
+ BST  
+ BST  XIC  [1,0] (*Q2*) (*Q2*)
+   NXB  XIC  [1,1] (*Q3*) (*Q3*)
+ BND
+  
+ BST  
+ BST  XIC  [2,0] (*Q7*) (*Q7*)
+   NXB  
+ BST  XIC  [2,1] (*Q7*) (*Q7*)
+   NXB  XIO  [2,2] (*Q8*) (*Q8*)
+ BND
+  
+ BST  XIC  [3,1] (*Q9*) (*Q9*)
+   NXB  XIC  [3,2] (*Q10*) (*Q10*)
+ BND
+
+ BND
+  
+ BST  XIC  [4,0] (*Q9*) (*Q9*)
+   NXB  XIC  [4,1] (*Q10*) (*Q10*)
+ BND
+
+   NXB  XIC  [2,3] (*Q5*) (*Q5*)
+ BND
+
+   NXB  XIO  [1,4] (*Q6*) (*Q6*)
+ BND
+  OTE  [5,0] (*Q1*) (*Q1*)
+EOR [6,0]
+EOF
+#end_info
+END_PROGRAM

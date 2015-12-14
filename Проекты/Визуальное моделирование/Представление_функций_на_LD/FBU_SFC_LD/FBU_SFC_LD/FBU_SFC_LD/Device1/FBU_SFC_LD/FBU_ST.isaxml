@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pou FileVersion="200.00.000" Name="FBU_ST" ElementGuid="2662eb7d-1c42-458f-8a8f-dc177c06c62e" Comment="{\rtf1\ansi\ansicpg1251\deff0\deflang1049{\fonttbl{\f0\fnil\fcharset204 Segoe UI;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs18\par&#xD;&#xA;}&#xD;&#xA;" SingleTextLine="" Language="ST" CustomFbd="0" Localization="Prj" GroupName="(Определяемый пользователем)" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="true" Is1499="false">
+  <Program />
+  <LocalVars />
+  <PouBody />
+</Pou>

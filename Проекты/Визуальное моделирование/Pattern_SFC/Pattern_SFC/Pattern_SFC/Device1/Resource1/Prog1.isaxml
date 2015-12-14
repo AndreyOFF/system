@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pou FileVersion="200.00.000" Name="Prog1" ElementGuid="33ddd677-7a31-49ad-a78e-c315198d9103" Comment="" SingleTextLine="" Language="SFC" CustomFbd="0" Localization="Prj" GroupName="(Определяемый пользователем)" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="true" Is1499="false">
+  <Program />
+  <LocalVars />
+  <PouBody><![CDATA[PROGRAM Prog1
+TRANSITION __GT0
+FROM 
+TO S1 :
+END_TRANSITION
+INITIAL_STEP S1 :
+#info= COORD
+[ 48 , 12 ]
+#end_info
+END_STEP
+END_PROGRAM]]></PouBody>
+</Pou>

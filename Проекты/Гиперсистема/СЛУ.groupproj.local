@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.383,D:\ЭЛЕКТРИК_МК\ProjectGroup1.groupproj=D:\ЭЛЕКТРИК_МК\Электрик.groupproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.983,D:\ЭЛЕКТРИК_МК\Электрик_МК.groupproj=D:\ЭЛЕКТРИК_МК\Электрик_МК.groupproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.906,D:\Гиперсистема\Электрик_МК.groupproj=D:\Гиперсистема\Гиперсистема.groupproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.636,D:\Гиперсистема\Проекты\Гиперсистема\Гиперсистема.groupproj=D:\Гиперсистема\Проекты\Гиперсистема\Гиперсистема.groupproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.717,D:\ЭЛЕКТРИК_МК\Электрик.groupproj=D:\ЭЛЕКТРИК_МК\Электрик_МК.groupproj</Transaction>
+    <Transaction>2014.11.11 11:00:06.857,D:\Гиперсистема\Проекты\Гиперсистема\СЛУ.groupproj=D:\Гиперсистема\Проекты\Гиперсистема\Гиперсистема.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="D:\Гиперсистема\Проекты\Гиперсистема\ТЗ_1.dproj"/>
+	</Default.Personality>
+</BorlandProject>

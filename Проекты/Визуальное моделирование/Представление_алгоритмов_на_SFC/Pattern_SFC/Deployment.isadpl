@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeploymentView>
+  <DVNodeType IndexName="Node53814755" Type="CategoryStation" MyWidth="200" Name="WorkStation" DataTemplate="Workstation" />
+  <DVNodeType IndexName="646a5d56-8ba4-4f61-9893-f48c13ad2002" Type="CategoryDevice" MyWidth="200" Name="Pattern_SFC.Device1" />
+</DeploymentView>

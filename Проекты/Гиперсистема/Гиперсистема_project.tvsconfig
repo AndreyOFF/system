@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.Гиперсистема" Type="System.String" Value="Гиперсистема" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Управление" Type="System.String" Value="Управление" Category="General" IsBrowsable="False" />
+</TgConfig>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeploymentView>
+  <DVNodeType IndexName="Node51598880" Type="CategoryStation" MyWidth="200" Name="WorkStation" DataTemplate="Workstation" />
+  <DVNodeType IndexName="488c193c-4f58-46aa-bce9-5dda7675a50a" Type="CategoryDevice" MyWidth="200" Name="Project1.Device1" />
+</DeploymentView>

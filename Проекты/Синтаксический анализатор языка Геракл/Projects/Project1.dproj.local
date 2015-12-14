@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.524,=C:\Users\polyakov\Downloads\regexpr_RU\Source\RegExpr.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.577,=C:\Users\polyakov\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.266,C:\Users\polyakov\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\polyakov\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

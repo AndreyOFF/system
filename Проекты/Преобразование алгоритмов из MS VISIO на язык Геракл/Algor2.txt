@@ -1,0 +1,23 @@
+Нач:NVIP
+1:
+FR009=true
+SDPNK13=true
+VIP1MS=false
+NNVIPMS=true
+2:
+Если (SDPNK13 and VIP1MS and NNVIPMS) То 3 Иначе 4
+3
+3:
+Ком:Выдать в УУ СК1 Fпвип на t 50-100мс
+4
+4:
+Если (SDPNK13 and VIP1MS) То 5 Иначе 6
+5
+5:
+NNVIP=true 
+6
+6:
+NNVIP=false
+7
+7:
+Кон:NVIP

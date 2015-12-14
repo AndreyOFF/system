@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="mnpcxfjao7k_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Средства_моделирования.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Средства_моделирования.@unitclass.Команда(ref@System.Boolean,System.Integer,System.string,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Средства_моделирования.@unitclass.Вход(ref@System.Boolean,System.Integer,System.string,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Средства_моделирования.@unitclass.Выч(ref@System.Boolean,System.Boolean,System.string,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Средства_моделирования.@unitclass.Выч_Пф_Зф(ref@System.Boolean,System.Boolean,System.string,System.Integer,ref@System.Boolean,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Средства_моделирования.@unitclass.Выч_Пф(ref@System.Boolean,System.Boolean,System.string,System.Integer,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Средства_моделирования.@unitclass.Выч_Зф(ref@System.Boolean,System.Boolean,System.string,System.Integer,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Средства_моделирования.@unitclass.FKU(ref@System.Boolean,System.Integer,System.string,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Средства_моделирования.@unitclass.Запись_ФС(System.Integer,System.string)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Средства_моделирования.@unitclass.Речевое_оповещение(System.string)" />
+      <reference referencedUin="delphi:e_method:src:Итерационное_моделирование:Средства_моделирования.@unitclass.Pr(System.Integer)" />
+    </reference>
+  </view>
+</nodeSet>

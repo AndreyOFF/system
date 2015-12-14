@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.Синтез__модели" Type="System.String" Value="Синтез__модели" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Синтез_модели" Type="System.String" Value="Синтез_модели" Category="General" IsBrowsable="False" />
+</TgConfig>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <node uin="d9zc2dx39a497m3jk_n">
+    <property name="$metaclass" value="Interaction Container" />
+    <property name="$name" value="Interaction container1" />
+  </node>
+</nodeSet>

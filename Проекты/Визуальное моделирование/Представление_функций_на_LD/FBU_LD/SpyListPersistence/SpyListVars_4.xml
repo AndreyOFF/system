@@ -1,0 +1,1177 @@
+<SpyListVars_4>
+  <xs:schema id="SpyListVars_4" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="SpyListVars_4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ConfigurationInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ToolWindowPaneIndex" type="xs:int" minOccurs="0" />
+                <xs:element name="SpyListName" type="xs:string" minOccurs="0" />
+                <xs:element name="ConfigFileVersion" type="xs:int" minOccurs="0" />
+                <xs:element name="DefaultRefreshRateMonitoring" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFramePositionX" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFramePositionY" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFrameWidth" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFrameHeight" type="xs:int" minOccurs="0" />
+                <xs:element name="OnlineFramePositionX" type="xs:int" minOccurs="0" />
+                <xs:element name="OnlineFramePositionY" type="xs:int" minOccurs="0" />
+                <xs:element name="OnlineFrameWidth" type="xs:int" minOccurs="0" />
+                <xs:element name="OnlineFrameHeight" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Variable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" msdata:Caption="Имя" type="xs:string" minOccurs="0" />
+                <xs:element name="Alias" msdata:ReadOnly="true" msdata:Caption="Алиас" type="xs:string" minOccurs="0" />
+                <xs:element name="LogicalValue" msdata:Caption="Логическое значение" type="xs:string" minOccurs="0" />
+                <xs:element name="PhysicalValue" msdata:Caption="Физическое значение" type="xs:string" minOccurs="0" />
+                <xs:element name="Lock" msdata:Caption="Блокировка" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Comment" msdata:ReadOnly="true" msdata:Caption="Комментарий" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" msdata:Caption="Путь доступа" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ForeignCombo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="ComplexFieldsUniqueConstraint">
+        <xs:selector xpath=".//Variable" />
+        <xs:field xpath="FullName" />
+      </xs:unique>
+    </xs:element>
+    <xs:annotation>
+      <xs:appinfo>
+        <msdata:Relationship name="ComboBoxRelation" msdata:parent="Variable" msdata:child="ForeignCombo" msdata:parentkey="Name" msdata:childkey="Name" />
+      </xs:appinfo>
+    </xs:annotation>
+  </xs:schema>
+  <ConfigurationInfo>
+    <ToolWindowPaneIndex>4</ToolWindowPaneIndex>
+    <SpyListName>Запуск алгоритмов</SpyListName>
+    <ConfigFileVersion>2</ConfigFileVersion>
+    <DefaultRefreshRateMonitoring>100</DefaultRefreshRateMonitoring>
+    <OfflineFramePositionX>-1</OfflineFramePositionX>
+    <OfflineFramePositionY>-1</OfflineFramePositionY>
+    <OfflineFrameWidth>938</OfflineFrameWidth>
+    <OfflineFrameHeight>135</OfflineFrameHeight>
+    <OnlineFramePositionX>-1</OnlineFramePositionX>
+    <OnlineFramePositionY>-1</OnlineFramePositionY>
+    <OnlineFrameWidth>1100</OnlineFrameWidth>
+    <OnlineFrameHeight>2005</OnlineFrameHeight>
+  </ConfigurationInfo>
+  <Variable>
+    <Name>__ONBU</Name>
+    <Alias>__ONBU</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ONBU</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OPODG</Name>
+    <Alias>__OPODG</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OPODG</FullName>
+  </Variable>
+  <Variable>
+    <Name>__STRASO</Name>
+    <Alias>__STRASO</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STRASO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__STPASO</Name>
+    <Alias>__STPASO</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STPASO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VKRASO</Name>
+    <Alias>__VKRASO</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VKRASO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ZAWRASO</Name>
+    <Alias>__ZAWRASO</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ZAWRASO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__NONASO</Name>
+    <Alias>__NONASO</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__NONASO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__STTEN</Name>
+    <Alias>__STTEN</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STTEN</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATTEN</Name>
+    <Alias>__ATTEN</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATTEN</FullName>
+  </Variable>
+  <Variable>
+    <Name>__HTTENRNS</Name>
+    <Alias>__HTTENRNS</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__HTTENRNS</FullName>
+  </Variable>
+  <Variable>
+    <Name>__RRU</Name>
+    <Alias>__RRU</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__RRU</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATRRU</Name>
+    <Alias>__ATRRU</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATRRU</FullName>
+  </Variable>
+  <Variable>
+    <Name>__HTRRU</Name>
+    <Alias>__HTRRU</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__HTRRU</FullName>
+  </Variable>
+  <Variable>
+    <Name>__STRNSO</Name>
+    <Alias>__STRNSO</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STRNSO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__TREV</Name>
+    <Alias>__TREV</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__TREV</FullName>
+  </Variable>
+  <Variable>
+    <Name>__STTREV</Name>
+    <Alias>__STTREV</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STTREV</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATTREV</Name>
+    <Alias>__ATTREV</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATTREV</FullName>
+  </Variable>
+  <Variable>
+    <Name>__HTTREV</Name>
+    <Alias>__HTTREV</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__HTTREV</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATVKSNA</Name>
+    <Alias>__ATVKSNA</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATVKSNA</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATOBRK</Name>
+    <Alias>__ATOBRK</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATOBRK</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATOPRD</Name>
+    <Alias>__ATOPRD</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATOPRD</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATOBDO</Name>
+    <Alias>__ATOBDO</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATOBDO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ORASO</Name>
+    <Alias>__ОRASO</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ORASO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OBRKKU</Name>
+    <Alias>__ОBRKKU</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OBRKKU</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OUDM</Name>
+    <Alias>__ОUDM</Alias>
+    <LogicalValue>WAIT</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OUDM</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OPS24BS</Name>
+    <Alias>__ОPS24BS</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OPS24BS</FullName>
+  </Variable>
+  <Variable>
+    <Name>__P1BHP</Name>
+    <Alias>__P1BHP</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__P1BHP</FullName>
+  </Variable>
+  <Variable>
+    <Name>__P2BHP</Name>
+    <Alias>__P2BHP</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__P2BHP</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OD12</Name>
+    <Alias>__OD12</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OD12</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OD34</Name>
+    <Alias>__OD34</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OD34</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OD56</Name>
+    <Alias>__OD56</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OD56</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OKUD</Name>
+    <Alias>__OKUD</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OKUD</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OBSD</Name>
+    <Alias>__OBSD</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OBSD</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VNGDO</Name>
+    <Alias>__VNGDO</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VNGDO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VODO</Name>
+    <Alias>__VODO</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VODO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VRDO</Name>
+    <Alias>__VRDO</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VRDO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VPD1</Name>
+    <Alias>__VPD1</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD1</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VPD2</Name>
+    <Alias>__VPD2</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD2</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VPD3</Name>
+    <Alias>__VPD3</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD3</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VPD4</Name>
+    <Alias>__VPD4</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD4</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VPD5</Name>
+    <Alias>__VPD5</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD5</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VPD6</Name>
+    <Alias>__VPD6</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD6</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VPDK1</Name>
+    <Alias>__VPDK1</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPDK1</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VPDK2</Name>
+    <Alias>__VPDK2</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPDK2</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VPDK3</Name>
+    <Alias>__VPDK3</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPDK3</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VPDK4</Name>
+    <Alias>__VPDK4</Alias>
+    <LogicalValue>WAIT</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPDK4</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VDND1</Name>
+    <Alias>__VDND1</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND1</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VDND2</Name>
+    <Alias>__VDND2</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND2</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VDND3</Name>
+    <Alias>__VDND3</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND3</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VDND4</Name>
+    <Alias>__VDND4</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND4</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VDND5</Name>
+    <Alias>__VDND5</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND5</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VDND6</Name>
+    <Alias>__VDND6</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND6</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VDNDK1</Name>
+    <Alias>__VDNDK1</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDNDK1</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VDNDK2</Name>
+    <Alias>__VDNDK2</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDNDK2</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VDNDK3</Name>
+    <Alias>__VDNDK3</Alias>
+    <LogicalValue>WAIT</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDNDK3</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VDNDK4</Name>
+    <Alias>__VDNDK4</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDNDK4</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ONDK</Name>
+    <Alias>__ONDK</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ONDK</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OND1</Name>
+    <Alias>__OND1</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND1</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OND2</Name>
+    <Alias>__OND2</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND2</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OND3</Name>
+    <Alias>__OND3</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND3</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OND4</Name>
+    <Alias>__OND4</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND4</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OND5</Name>
+    <Alias>__OND5</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND5</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OND6</Name>
+    <Alias>__OND6</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND6</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ONDO</Name>
+    <Alias>__ONDO</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ONDO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VVIPD1</Name>
+    <Alias>__VVIPD1</Alias>
+    <LogicalValue>OFFLINE</LogicalValue>
+    <PhysicalValue>OFFLINE</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VVIPD1</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VVIPD2</Name>
+    <Alias>__VVIPD2</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VVIPD2</FullName>
+  </Variable>
+  <Variable>
+    <Name>__VVIPD</Name>
+    <Alias>__VVIPD</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VVIPD</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OGK1</Name>
+    <Alias>__OGK1</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OGK1</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OGK2</Name>
+    <Alias>__OGK2</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OGK2</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OGK3</Name>
+    <Alias>__OGK3</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OGK3</FullName>
+  </Variable>
+  <Variable>
+    <Name>__V1REK</Name>
+    <Alias>__V1REK</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__V1REK</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OREK</Name>
+    <Alias>__OREK</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OREK</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OPNK</Name>
+    <Alias>__OPNK</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OPNK</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATRNSO</Name>
+    <Alias>__ATRNSO</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATRNSO</FullName>
+  </Variable>
+  <Variable>
+    <Name>__TREVOG</Name>
+    <Alias>__TREVOG</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__TREVOG</FullName>
+  </Variable>
+  <Variable>
+    <Name>__SRRU</Name>
+    <Alias>__SRRU</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__SRRU</FullName>
+  </Variable>
+  <Variable>
+    <Name>__OBNFR</Name>
+    <Alias>__OBNFR</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OBNFR</FullName>
+  </Variable>
+  <Variable>
+    <Name>__STVGK1</Name>
+    <Alias>__STVGK1</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STVGK1</FullName>
+  </Variable>
+  <Variable>
+    <Name>__STVGK2</Name>
+    <Alias>__STVGK2</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STVGK2</FullName>
+  </Variable>
+  <Variable>
+    <Name>__STVGK3</Name>
+    <Alias>__STVGK3</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STVGK3</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATVGK1</Name>
+    <Alias>__ATVGK1</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATVGK1</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATVGK2</Name>
+    <Alias>__ATVGK2</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATVGK2</FullName>
+  </Variable>
+  <Variable>
+    <Name>__ATVGK3</Name>
+    <Alias>__ATVGK3</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATVGK3</FullName>
+  </Variable>
+  <Variable>
+    <Name>__TESTP</Name>
+    <Alias>__TESTP</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__TESTP</FullName>
+  </Variable>
+  <Variable>
+    <Name>__TESTF</Name>
+    <Alias>__TESTF</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__TESTF</FullName>
+  </Variable>
+  <ForeignCombo>
+    <Name>__OPODG</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OPODG</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__STRASO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STRASO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__STPASO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STPASO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VKRASO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VKRASO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ZAWRASO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ZAWRASO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__NONASO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__NONASO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__STTEN</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STTEN</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATTEN</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATTEN</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__HTTENRNS</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__HTTENRNS</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__RRU</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__RRU</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATRRU</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATRRU</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__HTRRU</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__HTRRU</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__STRNSO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STRNSO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__TREV</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__TREV</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__STTREV</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STTREV</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATTREV</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATTREV</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__HTTREV</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__HTTREV</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATVKSNA</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATVKSNA</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATOBRK</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATOBRK</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATOPRD</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATOPRD</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATOBDO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATOBDO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ORASO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ORASO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OBRKKU</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OBRKKU</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OUDM</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OUDM</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OPS24BS</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OPS24BS</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__P1BHP</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__P1BHP</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__P2BHP</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__P2BHP</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OD12</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OD12</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OD34</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OD34</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OD56</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OD56</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OKUD</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OKUD</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OBSD</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OBSD</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VNGDO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VNGDO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VODO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VODO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VRDO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VRDO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VPD1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VPD2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VPD3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VPD4</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD4</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VPD5</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD5</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VPD6</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPD6</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VPDK1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPDK1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VPDK2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPDK2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VPDK3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPDK3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VPDK4</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VPDK4</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VDND1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VDND2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VDND3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VDND4</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND4</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VDND5</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND5</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VDND6</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDND6</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VDNDK1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDNDK1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VDNDK2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDNDK2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VDNDK3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDNDK3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VDNDK4</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VDNDK4</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ONDK</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ONDK</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OND1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OND2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OND3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OND4</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND4</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OND5</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND5</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OND6</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OND6</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ONDO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ONDO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VVIPD1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VVIPD1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VVIPD2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VVIPD2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__VVIPD</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__VVIPD</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OGK1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OGK1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OGK2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OGK2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OGK3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OGK3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__V1REK</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__V1REK</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OREK</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OREK</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OPNK</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OPNK</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATRNSO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATRNSO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__TREVOG</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__TREVOG</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__SRRU</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__SRRU</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__OBNFR</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__OBNFR</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__STVGK1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STVGK1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__STVGK2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STVGK2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__STVGK3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__STVGK3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATVGK1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATVGK1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATVGK2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATVGK2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ATVGK3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ATVGK3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__TESTP</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__TESTP</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__TESTF</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__TESTF</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>__ONBU</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.__ONBU</FullName>
+  </ForeignCombo>
+</SpyListVars_4>

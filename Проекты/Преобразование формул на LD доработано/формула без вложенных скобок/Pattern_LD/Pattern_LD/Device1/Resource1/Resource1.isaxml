@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resource FileVersion="200.00.000" Name="Resource1" ResourceNb="1" ElementGuid="0c62311f-8de6-4223-b49d-47db48e7362a" Address="@1" Comment="Resources 1" SingleTextLine="Resource Number 1" GenDebugInfo="false" Password="" ReadOnly="false" UsePrjPassword="false" Code="TicCode">
+  <Properties Test="true" TrigCycle="false" CyTiming="0" DeErrors="true" NbStErrors="16" ExecMode="true" EmbedTable="false" TypeEmbedTable="1" EmbedSource="false" TypeEmbedSource="0" SimulationCode="true" SfcGain="8" SfcOffset="18" EmbeddedSfc="false" ReadableImage="false" RealImage="false" LocExp="false" unlab="false" AriOpe="false" BooOpe="false" BooExp="false" GloExp="false" VarCpy="false" Uncod="false" MapFile="false" DumpPou="false" DumpConfig="false" DumpNetwork="false" CompileIncrementally="true" LinkIncrementally="true" CheckArray="false" ArrStr="false" OnlineMemory="32000" OnlineMemoryVariable="2048" MemRetain="RETAIN" FunctionInternalStateEnable="true" FbdBehaviorMode="1" OnlineMaxExtraPous="20" OnlineMemorySfc="4096" CyUsTiming="0" IsDisableAccessFBLocalVar="true" EnableCVT="false" />
+  <NetworkParameterValues>
+    <NetworkParameterValue NetworkName="HSD" Name="ValidityTime" Value="0" />
+    <NetworkParameterValue NetworkName="ETCP" Name="TimeOut" Value="10000" />
+  </NetworkParameterValues>
+  <GlobalVars />
+  <Pous>
+    <Program Name="Prog1" ElementGuid="bb023af5-9341-4e81-b9cd-eac33d95d1e4" Language="LD" CustomFbd="0" Is1499="false" />
+  </Pous>
+  <Devices />
+  <ExportedGroups />
+  <ImportedGroups />
+</Resource>

@@ -1,0 +1,60 @@
+(*************** QuickLD compiler **********************)
+(*************** Copyright ICS Triplex ISaGRAF *********)
+(*************** ST ************************************)
+
+(*************** Rung **********************************)
+(**)
+(*Label :*)(**)
+
+(*************** Code for the end of Rung **************)
+
+
+(*************** Rung **********************************)
+(*Q1 = ( Q2 + Q3 ) * ( ( Q7 + ^ ( Q7 + ^ Q8 ) * ( Q9 + Q10 ) ) * ( Q9 + Q10 ) + Q5 ) + ^ Q6*)
+(*Label :*)(**)
+__EDTB1 := Q2 ;
+__EDTB2 := Q3 ;
+__EDTB3 := (__EDTB1 OR __EDTB2) ;
+__EDTB4 := __EDTB3 AND Q7 ;
+__EDTB5 := __EDTB3 AND Q7 ;
+__EDTB6 := __EDTB3 AND NOT(Q8) ;
+__EDTB7 := (__EDTB5 OR __EDTB6) ;
+__EDTB8 := __EDTB7 AND Q9 ;
+__EDTB9 := __EDTB7 AND Q10 ;
+__EDTB10 := (__EDTB8 OR __EDTB9) ;
+__EDTB11 := (__EDTB4 OR __EDTB10) ;
+__EDTB12 := __EDTB11 AND Q9 ;
+__EDTB13 := __EDTB11 AND Q10 ;
+__EDTB14 := (__EDTB12 OR __EDTB13) ;
+__EDTB15 := __EDTB3 AND Q5 ;
+__EDTB16 := (__EDTB14 OR __EDTB15) ;
+__EDTB17 := NOT(Q6) ;
+Q1 := (__EDTB16 OR __EDTB17) ;
+
+(*************** Code for the end of Rung **************)
+
+
+(*************** Code for the end of File **************)
+__GL __LG0000 ;
+
+
+
+(*************** Local Symbols table *******************)
+(* __EDTB1 *)
+(* __EDTB2 *)
+(* __EDTB3 *)
+(* __EDTB4 *)
+(* __EDTB5 *)
+(* __EDTB6 *)
+(* __EDTB7 *)
+(* __EDTB8 *)
+(* __EDTB9 *)
+(* __EDTB10 *)
+(* __EDTB11 *)
+(* __EDTB12 *)
+(* __EDTB13 *)
+(* __EDTB14 *)
+(* __EDTB15 *)
+(* __EDTB16 *)
+(* __EDTB17 *)
+

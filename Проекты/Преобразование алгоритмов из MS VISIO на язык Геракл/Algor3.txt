@@ -1,0 +1,56 @@
+Нач:OPODG
+1:
+FR021=True
+Если opdo То 2 Иначе 15
+2:
+t_opdo=0
+X2KU70=True
+X2KU18=True
+X2KU71=True
+X2KU1B=True
+X2KU72=True
+X2KU3F=True
+X2KU73=True
+X2KU41=True
+X2KU74=True
+X2KU04=True
+X2KU75=True
+X2KU07=True
+3:
+Если pndk1 То 4 Иначе 5
+4:
+X2KU78=True
+Если ZKUDK То 4 Иначе 5
+4:
+X2KU46=True
+5
+5:
+X2KU07=True
+Если pndk2 То 6 Иначе 8
+6:
+X2KU79=True
+Если ^ZKUDK То 7 Иначе 8
+7:
+X2KU49=True
+8
+8:
+Если pndk3 То 9 Иначе 11
+9:
+X2KU6Е=True
+Если ^ZKUDK То 10 Иначе 11
+10:
+X2KU5А=True
+11
+11:
+Если pndk4 То 12 Иначе 14
+12:
+X2KU6F=True
+Если ^ZKUDK То 13 Иначе 14
+13:
+X2KU5D=True
+14
+14:
+X2KU0C=True
+15
+15:
+Кон:OPODG

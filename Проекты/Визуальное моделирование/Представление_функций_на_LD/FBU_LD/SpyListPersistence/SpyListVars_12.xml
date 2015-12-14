@@ -1,0 +1,306 @@
+<SpyListVars_12>
+  <xs:schema id="SpyListVars_12" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="SpyListVars_12" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ConfigurationInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ToolWindowPaneIndex" type="xs:int" minOccurs="0" />
+                <xs:element name="SpyListName" type="xs:string" minOccurs="0" />
+                <xs:element name="ConfigFileVersion" type="xs:int" minOccurs="0" />
+                <xs:element name="DefaultRefreshRateMonitoring" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFramePositionX" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFramePositionY" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFrameWidth" type="xs:int" minOccurs="0" />
+                <xs:element name="OfflineFrameHeight" type="xs:int" minOccurs="0" />
+                <xs:element name="OnlineFramePositionX" type="xs:int" minOccurs="0" />
+                <xs:element name="OnlineFramePositionY" type="xs:int" minOccurs="0" />
+                <xs:element name="OnlineFrameWidth" type="xs:int" minOccurs="0" />
+                <xs:element name="OnlineFrameHeight" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Variable">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" msdata:Caption="Имя" type="xs:string" minOccurs="0" />
+                <xs:element name="Alias" msdata:ReadOnly="true" msdata:Caption="Алиас" type="xs:string" minOccurs="0" />
+                <xs:element name="LogicalValue" msdata:Caption="Логическое значение" type="xs:string" minOccurs="0" />
+                <xs:element name="PhysicalValue" msdata:Caption="Физическое значение" type="xs:string" minOccurs="0" />
+                <xs:element name="Lock" msdata:Caption="Блокировка" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Comment" msdata:ReadOnly="true" msdata:Caption="Комментарий" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" msdata:Caption="Путь доступа" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ForeignCombo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="FullName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="ComplexFieldsUniqueConstraint">
+        <xs:selector xpath=".//Variable" />
+        <xs:field xpath="FullName" />
+      </xs:unique>
+    </xs:element>
+    <xs:annotation>
+      <xs:appinfo>
+        <msdata:Relationship name="ComboBoxRelation" msdata:parent="Variable" msdata:child="ForeignCombo" msdata:parentkey="Name" msdata:childkey="Name" />
+      </xs:appinfo>
+    </xs:annotation>
+  </xs:schema>
+  <ConfigurationInfo>
+    <ToolWindowPaneIndex>12</ToolWindowPaneIndex>
+    <SpyListName>Сигналы таймеров</SpyListName>
+    <ConfigFileVersion>2</ConfigFileVersion>
+    <DefaultRefreshRateMonitoring>100</DefaultRefreshRateMonitoring>
+    <OfflineFramePositionX>-1</OfflineFramePositionX>
+    <OfflineFramePositionY>-1</OfflineFramePositionY>
+    <OfflineFrameWidth>938</OfflineFrameWidth>
+    <OfflineFrameHeight>135</OfflineFrameHeight>
+    <OnlineFramePositionX>-1</OnlineFramePositionX>
+    <OnlineFramePositionY>-1</OnlineFramePositionY>
+    <OnlineFrameWidth>1066</OnlineFrameWidth>
+    <OnlineFrameHeight>531</OnlineFrameHeight>
+  </ConfigurationInfo>
+  <Variable>
+    <Name>SSTT1</Name>
+    <Alias>SСТТ1</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSTT1</FullName>
+  </Variable>
+  <Variable>
+    <Name>SSPY</Name>
+    <Alias>SСПУ</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSPY</FullName>
+  </Variable>
+  <Variable>
+    <Name>SSTT18</Name>
+    <Alias>SСТТ18</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSTT18</FullName>
+  </Variable>
+  <Variable>
+    <Name>SSTT2</Name>
+    <Alias>SСТТ2</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSTT2</FullName>
+  </Variable>
+  <Variable>
+    <Name>SSY2</Name>
+    <Alias>SСУ2</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSY2</FullName>
+  </Variable>
+  <Variable>
+    <Name>SSTT</Name>
+    <Alias>SСТТ</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSTT</FullName>
+  </Variable>
+  <Variable>
+    <Name>SSRS</Name>
+    <Alias>SСРС</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSRS</FullName>
+  </Variable>
+  <Variable>
+    <Name>SOPDO</Name>
+    <Alias>SОПДО</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SOPDO</FullName>
+  </Variable>
+  <Variable>
+    <Name>STEN</Name>
+    <Alias>SТЕН</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.STEN</FullName>
+  </Variable>
+  <Variable>
+    <Name>SRRY</Name>
+    <Alias>SРРУ</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SRRY</FullName>
+  </Variable>
+  <Variable>
+    <Name>STREVOG</Name>
+    <Alias>SТРЕВОГ</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.STREVOG</FullName>
+  </Variable>
+  <Variable>
+    <Name>SVKSNA</Name>
+    <Alias>SВКСНА</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SVKSNA</FullName>
+  </Variable>
+  <Variable>
+    <Name>SOBRK</Name>
+    <Alias>SОБРК</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SOBRK</FullName>
+  </Variable>
+  <Variable>
+    <Name>SOBDO</Name>
+    <Alias>SОБДО</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SOBDO</FullName>
+  </Variable>
+  <Variable>
+    <Name>SRNSO</Name>
+    <Alias>SРНСО</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SRNSO</FullName>
+  </Variable>
+  <Variable>
+    <Name>SGK1</Name>
+    <Alias>SГК1</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SGK1</FullName>
+  </Variable>
+  <Variable>
+    <Name>SGK2</Name>
+    <Alias>SГК2</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SGK2</FullName>
+  </Variable>
+  <Variable>
+    <Name>SGK3</Name>
+    <Alias>SГК3</Alias>
+    <LogicalValue>False</LogicalValue>
+    <PhysicalValue>False</PhysicalValue>
+    <Lock>false</Lock>
+    <Comment />
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SGK3</FullName>
+  </Variable>
+  <ForeignCombo>
+    <Name>SSTT2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSTT2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SSTT</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSTT</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SSPY</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSPY</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SSRS</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSRS</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SOPDO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SOPDO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>STEN</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.STEN</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>STREVOG</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.STREVOG</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SVKSNA</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SVKSNA</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SOBRK</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SOBRK</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SOBDO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SOBDO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SRNSO</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SRNSO</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SGK1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SGK1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SGK2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SGK2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SSTT1</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSTT1</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SSTT18</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSTT18</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SSY2</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SSY2</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SGK3</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SGK3</FullName>
+  </ForeignCombo>
+  <ForeignCombo>
+    <Name>SRRY</Name>
+    <FullName>FBU_LD.Device1.FBU_LD.Prog1.SRRY</FullName>
+  </ForeignCombo>
+</SpyListVars_12>

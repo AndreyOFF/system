@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="dn0rs0aj053yn5ges_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="uml:package:Итерационное_моделирование:src:Средства_моделирования">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,208,134" />
+      <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Средства_моделирования.@unitclass" />
+    </reference>
+    <reference referencedUin="uml:package:Итерационное_моделирование:src:Управление_моделированием">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="237,1,232,151" />
+      <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Управление_моделированием.Кнопка" />
+      <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Управление_моделированием.TMainForm" />
+      <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Управление_моделированием.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Управление_моделированием.Граф_управления" />
+    </reference>
+    <reference referencedUin="uml:package:Итерационное_моделирование:src:Итерационное_моделирование">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="488,1,237,134" />
+      <reference referencedUin="delphi:e_class:src:Итерационное_моделирование:Итерационное_моделирование.@unitclass" />
+    </reference>
+    <reference referencedUin="uml:package:Итерационное_моделирование:src:Объявление_переменных">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="218,163,171,102" />
+    </reference>
+  </view>
+</nodeSet>

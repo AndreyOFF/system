@@ -1,0 +1,6 @@
+0::0021-0003::Checking database...
+0::0047-0003::-------------------- Check project for resource(s) to pre-build: FBU_SFC_LD --------------------
+1::0002-0003::FBU_SFC_LD:    0 error(s), 0 warning(s)
+0::0021-0003::Checking database...
+0::0007-0003::-------------------- Build project: FBU_SFC_LD --------------------
+1::0002-0003::FBU_SFC_LD:    0 error(s), 1 warning(s)

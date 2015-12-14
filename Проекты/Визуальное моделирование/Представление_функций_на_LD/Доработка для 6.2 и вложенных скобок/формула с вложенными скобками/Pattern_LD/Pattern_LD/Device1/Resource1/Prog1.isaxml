@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pou FileVersion="200.00.002" Name="Prog1" ElementGuid="bb023af5-9341-4e81-b9cd-eac33d95d1e4" Comment="" SingleTextLine="" Language="LD" CustomFbd="0" Localization="Prj" GroupName="(Определяемый пользователем)" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="true" Is1499="false">
+  <Program />
+  <LocalVars>
+    <Variable Name="Q1" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="Q1" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="Q2" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="Q2" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="Q3" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="Q3" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="Q7" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="Q7" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="Q8" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="Q8" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="Q9" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="Q9" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="Q10" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="Q10" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="Q5" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="Q5" AccessRights="ReadWrite" StringSize="0" />
+    <Variable Name="Q6" DataType="BOOL" InitialValue="" Comment="" Address="" Kind="Var" Alias="Q6" AccessRights="ReadWrite" StringSize="0" />
+  </LocalVars>
+  <PouBody><![CDATA[PROGRAM Prog1
+#info= QLD
+BOF
+
+
+(**)
+
+SOR  [0,1] (**) (**)
+EOR [1,0]
+
+
+(*Q1 = ( Q2 + Q3 ) * ( ( Q7 + ^ ( Q7 + ^ Q8 ) * ( Q9 + Q10 ) ) * ( Q9 + Q10 ) + Q5 ) + ^ Q6*)
+
+SOR  [0,2] (**) (**)  
+ BST  
+ BST  XIC  [1,0] (*Q2*) (*Q2*)
+   NXB  XIC  [1,1] (*Q3*) (*Q3*)
+ BND
+  
+ BST  
+ BST  XIC  [2,0] (*Q7*) (*Q7*)
+   NXB  
+ BST  XIC  [2,1] (*Q7*) (*Q7*)
+   NXB  XIO  [2,2] (*Q8*) (*Q8*)
+ BND
+  
+ BST  XIC  [3,1] (*Q9*) (*Q9*)
+   NXB  XIC  [3,2] (*Q10*) (*Q10*)
+ BND
+
+ BND
+  
+ BST  XIC  [4,0] (*Q9*) (*Q9*)
+   NXB  XIC  [4,1] (*Q10*) (*Q10*)
+ BND
+
+   NXB  XIC  [2,3] (*Q5*) (*Q5*)
+ BND
+
+   NXB  XIO  [1,4] (*Q6*) (*Q6*)
+ BND
+  OTE  [5,0] (*Q1*) (*Q1*)
+EOR [6,0]
+EOF
+#end_info
+END_PROGRAM]]></PouBody>
+</Pou>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration FileVersion="200.00.000" Name="Device1" ElementGuid="65b12718-4dd9-4edb-8082-587bf951c8ed" onlineBehavior="Always" TargetName="SIMULATOR" Comment="" SingleTextLine="This is the Device 1" Password="" IsEnhanced="true" IsIsagraf3="false">
+  <Connections />
+  <Resource Name="Resource1" ElementGuid="0c62311f-8de6-4223-b49d-47db48e7362a" />
+</Configuration>
